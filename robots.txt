@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /contents
+Allow: /css
+Allow: /files
+Allow: /flags
+Allow: /lang
+Allow: /pictures
+Disallow: /admin
+Allow: /
+

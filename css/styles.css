@@ -1,0 +1,64 @@
+* {
+    font-family: "Trebuchet MS";
+}
+
+#navbar {
+	margin-bottom: 3vh;
+}
+
+.languageFlag {
+	cursor: pointer;
+	margin-left: 1vw;
+}
+
+.languageLinks {
+	margin-top: 0.5vh;
+}
+
+.card {
+	margin-bottom: 2vh;
+}
+
+#summary {
+	margin-bottom: 1vh;
+	margin-right: 1vw;
+}
+
+#summary a {
+	text-decoration: none;
+}
+
+#summary a img {
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	margin-top: 0.5vh;
+}
+
+#networks a {
+	margin-left: 0.2vw;
+	margin-right: 0.2vw;
+	text-decoration: none;
+}
+
+#cvPicture {
+	margin-bottom: 1vh;
+}
+
+#idPicture {
+	width: 20vh;
+	height: auto;
+}
+
+.cvPartTitle {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.cvFileDownloadButton {
+	margin-top: 0.5vh;
+}
+
+#footer {
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+}

@@ -1,0 +1,9 @@
+
+# Ignore the .idea directory, which contains project-specific settings for JetBrains IDEs
+.idea
+
+# Ignore the .vscode directory, which contains project-specific settings for Visual Studio Code
+.vscode
+
+# Ignore the databaseSettings.xml file, which may contain sensitive information such as database credentials
+admin/databaseSettings.xml

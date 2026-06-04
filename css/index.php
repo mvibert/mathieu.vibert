@@ -1,0 +1,18 @@
+<?php
+	
+/////////////////////////////////////////////////////////////////////////////////////////
+
+	/**
+	 * compulsory line to prevent the user from executing the code of the other source files
+	 * by direct access
+	 */
+
+	define ('ROOT', 1);
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+	include ('../inc/htmlFacilities.inc.php');
+	
+	redirectToHomePage();
+
+?>
