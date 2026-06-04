@@ -45,7 +45,7 @@ $translations['cvWorkMeritisCompany'] = 'Meritis';
 $translations['cvWorkMeritisRole'] = 'Tech Lead';
 $translations['cvWorkMeritisDescription'] = 'Missions :<p/><br/>'
     .'Mission at CA-TS (Cr&eacute;dit Agricole Technologies et Services) as Tech Lead of the squad LKP (Lab KYC Partenaire) working on the following applications :<ul>'
-    .'<li>GPP9, API managing legal persons</li>'
+    .'<li>GPM9, API managing legal persons</li>'
     .'<li>Mod&egrave;le IA, application reviewing private persons data using data provided by AI and reliable sources</li></ul><p/><br/>'
     .'Mission at CA-TS (Cr&eacute;dit Agricole Technologies et Services - 2 years) in the squad VPP (Vie des Personnes Physiques) on API controlling and managing private persons data';
 $translations['cvWorkMeritisEnvironment'] = 'Environment : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes';
