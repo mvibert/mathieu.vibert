@@ -43,10 +43,11 @@ $translations['cvWorkExperience'] = 'EXPERIENCE PROFESSIONNELLE';
 $translations['cvWorkMeritisDates'] = '2023 - maintenant (#NB_YEARS# ans)';
 $translations['cvWorkMeritisCompany'] = 'Meritis';
 $translations['cvWorkMeritisRole'] = 'Lead Tech';
-$translations['cvWorkMeritisDescription'] = 'Missions :<p/><br/>'
+$translations['cvWorkMeritisDescription'] = 'Missions :<br/><br/>'
+    .'Mission de 3 mois chez G2S (Groupama Supports et Services) dans l\'&eacute;quipe GRC sur le projet FID (Formatage et Int&eacute;gration de Donn&eacute;es)<br/><br/>'
     .'Mission chez CA-TS (Cr&eacute;dit Agricole Technologies et Services) comme Lead Tech de la squad LKP (Lab KYC Partenaire) travaillant sur les applications suivantes :<ul>'
     .'<li>GPM9, API de gestion de PM (Personnes Morales)</li>'
-    .'<li>Mod&egrave;le IA, application de r&eacute;vision de donn&eacute;es de PP (Personnes Physiques) via des donn&eacute;es fournies par de l\'IA et des sources fiables</li></ul><p/><br/>'
+    .'<li>Mod&egrave;le IA, application de r&eacute;vision de donn&eacute;es de PP (Personnes Physiques) via des donn&eacute;es fournies par de l\'IA et des sources fiables</li></ul><br/><br/><br/>'
     .'Mission de 2 ans chez CA-TS (Cr&eacute;dit Agricole Technologies et Services) dans la squad VPP (Vie des Personnes Physiques) sur des API de contr&ocirc;le et de gestion de donn&eacute;es de PP (Personnes Physiques)';
 $translations['cvWorkMeritisEnvironment'] = 'Environnement : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes';
 
@@ -59,12 +60,12 @@ $translations['cvWorkThessEnvironment'] = 'Environnement : Java/J2EE, PostgreSQL
 $translations['cvWorkAusyDates'] = '2018 - 2020 (3 ans)';
 $translations['cvWorkAusyCompany'] = 'Ausy';
 $translations['cvWorkAusyRole'] = 'Ing&eacute;nieur &eacute;tude et d&eacute;veloppement';
-$translations['cvWorkAusyDescription'] = 'Missions :<p/><br/>'
-    .'Projet interne Ausy de 4 mois sur Skills Folder Maker, application web pour la gestion de dossiers de comp&eacute;tences de consultants et d’offres de missions de clients pour les faire correspondre<p/>'
+$translations['cvWorkAusyDescription'] = 'Missions :<br/><br/>'
+    .'Projet interne Ausy de 4 mois sur Skills Folder Maker, application web pour la gestion de dossiers de comp&eacute;tences de consultants et d’offres de missions de clients pour les faire correspondre<br/>'
     .'Mission de 10 mois chez Orange (entit&eacute; DevRap) pour 2 applications :<ul>'
     .'<li>ODF, application web de saisie et de gestion des demandes de formation des salari&eacute;s d’Orange</li>'
-    .'<li>PDIR, application web surcouche de Livedoc, Gestion Electronique de Documents d\'Orange</li></ul><p/><br/>'
-    .'Mission de 2 mois chez La Poste pour une application web permettant de r&eacute;ceptionner des &eacute;v&egrave;nements re&ccedil;us de composants g&eacute;rant la prise en charge de services de La Poste pour les traiter et les redistribuer sous un autre format vers le service de facturation<p/>'
+    .'<li>PDIR, application web surcouche de Livedoc, Gestion Electronique de Documents d\'Orange</li></ul><br/><br/>'
+    .'Mission de 2 mois chez La Poste pour une application web permettant de r&eacute;ceptionner des &eacute;v&egrave;nements re&ccedil;us de composants g&eacute;rant la prise en charge de services de La Poste pour les traiter et les redistribuer sous un autre format vers le service de facturation<br/>'
     .'Mission de 18 mois chez Orange pour une application de signature &eacute;lectronique de documents';
 $translations['cvWorkAusyEnvironment'] = 'Environnement : Java/J2EE, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git';
 

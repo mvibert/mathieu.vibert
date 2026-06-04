@@ -43,10 +43,11 @@ $translations['cvWorkExperience'] = 'WORK EXPERIENCE';
 $translations['cvWorkMeritisDates'] = '2023 - now (#NB_YEARS# years)';
 $translations['cvWorkMeritisCompany'] = 'Meritis';
 $translations['cvWorkMeritisRole'] = 'Tech Lead';
-$translations['cvWorkMeritisDescription'] = 'Missions :<p/><br/>'
+$translations['cvWorkMeritisDescription'] = 'Missions :<br/><br/>'
+    .'Mission at G2S (Groupama Supports et Services) in the CRM team on the FID project (Data Formatting and Integration)<br/>'
     .'Mission at CA-TS (Cr&eacute;dit Agricole Technologies et Services) as Tech Lead of the squad LKP (Lab KYC Partenaire) working on the following applications :<ul>'
     .'<li>GPM9, API managing legal persons</li>'
-    .'<li>Mod&egrave;le IA, application reviewing private persons data using data provided by AI and reliable sources</li></ul><p/><br/>'
+    .'<li>Mod&egrave;le IA, application reviewing private persons data using data provided by AI and reliable sources</li></ul><br/><br/><br/>'
     .'Mission at CA-TS (Cr&eacute;dit Agricole Technologies et Services - 2 years) in the squad VPP (Vie des Personnes Physiques) on API controlling and managing private persons data';
 $translations['cvWorkMeritisEnvironment'] = 'Environment : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes';
 
@@ -59,12 +60,12 @@ $translations['cvWorkThessEnvironment'] = 'Environment : Java/J2EE, PostgreSQL, 
 $translations['cvWorkAusyDates'] = '2018 - 2020 (3 years)';
 $translations['cvWorkAusyCompany'] = 'Ausy';
 $translations['cvWorkAusyRole'] = 'Engineer study and development';
-$translations['cvWorkAusyDescription'] = 'Missions :<p/><br/>'
-    .'Ausy internal project (4 months) on Skills Folder Maker, web application handling employees skills folders and clients missions offers to make them match together<p/>'
+$translations['cvWorkAusyDescription'] = 'Missions :<br/><br/>'
+    .'Ausy internal project (4 months) on Skills Folder Maker, web application handling employees skills folders and clients missions offers to make them match together<br/>'
     .'Mission at Orange (10 months) on 2 applications :<ul>'
     .'<li>ODF, web application to handle training requests for Orange employees</li>'
-    .'<li>PDIR, web application overlay of Livedoc, Orange\'s Electronic Documents Management</li></ul><p/><br/>'
-    .'Mission at La Poste (2 months) on a web application handling events received from components handling La Poste services care to deal with them and distribute them in another format to billing service<p/>'
+    .'<li>PDIR, web application overlay of Livedoc, Orange\'s Electronic Documents Management</li></ul><br/><br/>'
+    .'Mission at La Poste (2 months) on a web application handling events received from components handling La Poste services care to deal with them and distribute them in another format to billing service<br/>'
     .'Mission at Orange (18 months) on an application for documents digital signature';
 $translations['cvWorkAusyEnvironment'] = 'Environment : Java/J2EE, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git';
 
