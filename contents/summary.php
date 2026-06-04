@@ -21,8 +21,8 @@
 					<div class="card-body">
     						<?php
     						
-    							foreach ( $summary as $part => $signs ) {
-    		       					displaySummaryPart($translations[$part], $signs);
+    							foreach ( $summary as $key => $part ) {
+    		       					displaySummaryPart(summaryPartTitle($key), $part['signs']);
     							}
     						
     						?>

@@ -11,6 +11,7 @@ define ( 'ROOT', 1 );
 // ///////////////////////////////////////////////////////////////////////////////////////
 
 include ('arrays/common.php');
+include ('arrays/summary.php');
 include ('arrays/cvInfo.php');
 include ('arrays/externalLinks.php');
 include ('inc/htmlFacilities.inc.php');

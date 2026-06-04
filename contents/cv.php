@@ -164,13 +164,13 @@
         							<ul class="list-group list-group-flush">
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"><?php echo $translations['summarySoftwareProgramming']; ?></div>
+            									<div class="col"><?php echo summaryPartTitle('summarySoftwareProgramming'); ?></div>
             									<div class="col-10">Ada, C, <b>C#, Java</b></div>
             								</div>
             							</li>
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"><?php echo $translations['summaryWebProgramming']; ?></div>
+            									<div class="col"><?php echo summaryPartTitle('summaryWebProgramming'); ?></div>
             									<div class="col-10"><b>XHTML, JavaScript, CSS, JQuery, Bootstrap, PHP, ASP.Net, J2EE, AngularJS</b></div>
             								</div>
             							</li>
@@ -182,13 +182,13 @@
             							</li>
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"><?php echo $translations['summaryDBMS']; ?></div>
+            									<div class="col"><?php echo summaryPartTitle('summaryDBMS'); ?></div>
             									<div class="col-10"><b>MySQL, Oracle, PostgreSQL, SQLServer</b></div>
             								</div>
             							</li>
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"><?php echo $translations['summaryVCS']; ?></div>
+            									<div class="col"><?php echo summaryPartTitle('summaryVCS'); ?></div>
             									<div class="col-10"><b>Git, SVN</b></div>
             								</div>
             							</li>
@@ -200,7 +200,7 @@
             							</li>
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"><?php echo $translations['summaryOS']; ?></div>
+            									<div class="col"><?php echo summaryPartTitle('summaryOS'); ?></div>
             									<div class="col-10">Windows, Linux</div>
             								</div>
             							</li>

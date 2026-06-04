@@ -30,13 +30,7 @@ $translations['viadeoLink'] = 'www.viadeo.com/en/profile/mathieu.vibert';
 
 $translations['summaryTitle'] = 'Summary';
 
-$translations['summarySoftwareProgramming'] = 'Software programming';
-$translations['summaryWebProgramming'] = 'Web programming';
-$translations['summaryDBMS'] = 'DBMS';
-$translations['summaryVCS'] = 'Version control systems';
-$translations['summaryOS'] = 'Operating systems';
-$translations['summaryEducation'] = 'Education';
-$translations['summaryCompanies'] = 'Companies';
+// The summary section headings now live in arrays/summary.php (bilingual 'title').
 
 $translations['cvBirthdate'] = 'Born on 02/12/1988';
 $translations['cvComputerSkills'] = 'COMPUTER SKILLS';

@@ -100,39 +100,52 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
+	 * Returns the heading of a summary section in the current language
+	 *
+	 * @param $part The key of the section in the $summary array
+	 * @return The section heading translated for the current language
+	 */
+	function summaryPartTitle($part) {
+		global $summary;
+		return $summary[$part]['title'][$_SESSION['lang']];
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+	/**
 	 * Displays a part of the summary using the title of the part
 	 * and the signs displayed inside it
-	 * 
+	 *
 	 * @param $title The title of the part displayed in the summary
 	 * @param $signs The array with the name of the signs displayed
 	 */
 	function displaySummaryPart($title, $signs) {
-		global $links;
-		
-		?>
-		
-				<div class="card border-primary">
-					<div class="card-header bg-primary"><?php echo $title; ?></div>
-					
-					<div class="card-body">
-		
-		<?php
-			foreach ( $signs as $sign => $signTitle ) {
-       
 		?>
 
-						<a href="http://<?php echo $links[$sign] ?>">
-							<img src="pictures/signs/<?php echo $sign ?>Sign.png" target="_blank"
+				<div class="card border-primary">
+					<div class="card-header bg-primary"><?php echo $title; ?></div>
+
+					<div class="card-body">
+
+		<?php
+			foreach ( $signs as $sign => $signData ) {
+				$signTitle = $signData[0];
+				$link      = $signData[1];
+
+		?>
+
+						<a href="http://<?php echo $link ?>" target="_blank" rel="noopener">
+							<img src="pictures/signs/<?php echo $sign ?>Sign.png"
 								alt="<?php echo $signTitle ?>" title="<?php echo $signTitle ?>"
 								onmouseout="this.style.opacity=1;this.filter='alpha(opacity=100)'"
 								onmouseover="this.style.opacity=0.6;this.filter='alpha(opacity=60)'"
 								/>
 						</a>
-				
+
 		<?php
-		
+
 			}
-		
+
 		?>
 
 					</div>
