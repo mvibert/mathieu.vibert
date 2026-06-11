@@ -37,10 +37,7 @@ $summary['summarySoftwareProgramming'] = array(
         'french'  => 'Programmation logicielle'
     ),
     'signs' => array(
-        'ada'    => array('Ada', 'www.adacore.com'),
-        'c'      => array('C', 'www.cprogramming.com'),
-        'java'   => array('Java', 'www.java.com/fr'),
-        'csharp' => array('C#', 'docs.microsoft.com/fr-fr/dotnet/csharp')
+        'java'   => array('Java', 'www.java.com/fr')
     )
 );
 

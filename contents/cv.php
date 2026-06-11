@@ -165,7 +165,7 @@
         								<li class="list-group-item border-primary">
             								<div class="row">
             									<div class="col"><?php echo summaryPartTitle('summarySoftwareProgramming'); ?></div>
-            									<div class="col-10">Ada, C, <b>C#, Java</b></div>
+            									<div class="col-10"><b>Java</b></div>
             								</div>
             							</li>
         								<li class="list-group-item border-primary">
@@ -177,7 +177,7 @@
         								<li class="list-group-item border-primary">
             								<div class="row">
             									<div class="col"><?php echo $translations['cvFrameworks']; ?></div>
-            									<div class="col-10"><b>.Net, Hibernate, Spring, Thymeleaf</b>, Struts</div>
+            									<div class="col-10"><b>.Net, Hibernate, Spring, Thymeleaf</b></div>
             								</div>
             							</li>
         								<li class="list-group-item border-primary">
