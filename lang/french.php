@@ -44,6 +44,7 @@ $translations['cvWorkMeritisDates'] = '2023 - maintenant (#NB_YEARS# ans)';
 $translations['cvWorkMeritisCompany'] = 'Meritis';
 $translations['cvWorkMeritisRole'] = 'Lead Tech';
 $translations['cvWorkMeritisDescription'] = 'Missions :<br/><br/>'
+    .'Mission chez Orchestra sur le projet Export Shopify sur les micro-services pour fournir un export Shopify aux franchis&eacute;s Orchestra<br/><br/>'
     .'Mission de 3 mois chez G2S (Groupama Supports et Services) dans l\'&eacute;quipe GRC sur le projet FID (Formatage et Int&eacute;gration de Donn&eacute;es)<br/><br/>'
     .'Mission chez CA-TS (Cr&eacute;dit Agricole Technologies et Services) comme Lead Tech de la squad LKP (Lab KYC Partenaire) travaillant sur les applications suivantes :<ul>'
     .'<li>GPM9, API de gestion de PM (Personnes Morales)</li>'
