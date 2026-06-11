@@ -194,7 +194,7 @@
         								<li class="list-group-item border-primary">
             								<div class="row">
             									<div class="col"><?php echo summaryPartTitle('summaryDBMS'); ?></div>
-            									<div class="col-10"><b>MySQL, Oracle, PostgreSQL, SQLServer</b></div>
+            									<div class="col-10"><b>MySQL, Oracle, PostgreSQL, SQLServer, IBM Db2, MongoDB</b></div>
             								</div>
             							</li>
         								<li class="list-group-item border-primary">

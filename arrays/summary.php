@@ -67,7 +67,8 @@ $summary['summaryDBMS'] = array(
         'sqlServer'  => array('Microsoft SQL Server', 'docs.microsoft.com/en-us/sql/sql-server/sql-server-technical-documentation'),
         'mysql'      => array('MySQL', 'dev.mysql.com/doc/refman'),
         'postgreSql' => array('PostgreSQL', 'www.postgresql.org'),
-        'db2z'       => array('Db2 for z/OS', 'www.ibm.com/fr-fr/products/db2-for-zos')
+        'db2z'       => array('Db2 for z/OS', 'www.ibm.com/fr-fr/products/db2-for-zos'),
+        'mongoDb'    => array('MongoDB', 'www.mongodb.com')
     )
 );
 
