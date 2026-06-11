@@ -82,17 +82,6 @@ $summary['summaryVCS'] = array(
     )
 );
 
-$summary['summaryEducation'] = array(
-    'title' => array(
-        'english' => 'Education',
-        'french'  => 'Enseignement'
-    ),
-    'signs' => array(
-        'dalzon'   => array('Institut Emmanuel d\'Alzon', 'www.dalzon.com'),
-        'polytech' => array('Polytech Montpellier', 'www.polytech.univ-montp2.fr')
-    )
-);
-
 $summary['summaryCompanies'] = array(
     'title' => array(
         'english' => 'Companies',

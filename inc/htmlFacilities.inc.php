@@ -158,6 +158,33 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
+	 * Displays a sign in the CV using its link and its title
+	 *
+	 * @param $allSignElements The array with the title and the link of the signs displayed
+	 */
+	function displayCvSign($signKey, $allSignElements) {
+
+			$signElements = $allSignElements[$signKey];
+			$signTitle = $signElements[0];
+			$link      = $signElements[1];
+
+		?>
+
+						<a href="http://<?php echo $link ?>" target="_blank" rel="noopener">
+							<img src="pictures/signs/<?php echo $signKey ?>Sign.png"
+								alt="<?php echo $signTitle ?>" title="<?php echo $signTitle ?>"
+								onmouseout="this.style.opacity=1;this.filter='alpha(opacity=100)'"
+								onmouseover="this.style.opacity=0.6;this.filter='alpha(opacity=60)'"
+								/>
+						</a>
+
+		<?php
+		
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+	/**
 	 * Displays the links to the cv files
 	 */
 	function displayCvFilesLinks() {

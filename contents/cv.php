@@ -107,7 +107,9 @@
         							<ul class="list-group list-group-flush">
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"></div>
+            									<div class="col">
+													<?php displayCvSign('scrum', $educationSigns); ?>
+												</div>
             									<div class="col-10">
                     								<div class="row">
                 										<b>Professional Scrum Developer 1 (PSD1)</b>
@@ -120,7 +122,9 @@
         								</li>
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"></div>
+            									<div class="col">
+													<?php displayCvSign('scrum', $educationSigns); ?>
+												</div>
             									<div class="col-10">
                     								<div class="row">
                 										<b>Professional Scrum Master 1 (PSM1)</b>
@@ -133,7 +137,9 @@
         								</li>
             							<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"></div>
+            									<div class="col">
+													<?php displayCvSign('polytech', $educationSigns); ?>
+												</div>
             									<div class="col-10">
                     								<div class="row">
                     									<b><?php echo $translations['cvPolytechDepartment'].', Polytech\'Montpellier'; ?></b>
@@ -149,7 +155,8 @@
         								</li>
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"></div>
+            									<div class="col">
+												</div>
             									<div class="col-10">
                     								<div class="row">
                 										<b><?php echo $translations['cvHighSchoolDiploma']; ?></b>

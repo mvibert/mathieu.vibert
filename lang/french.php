@@ -104,7 +104,6 @@ $translations['cvWorkUlEnvironment'] = 'Environnement : PHP, MySQL, HTML/CSS, Ja
 $translations['cvEducation'] = 'DIPLOMES ET FORMATIONS';
 $translations['cvPolytechDepartment'] = 'Dipl&ocirc;me d\'ing&eacute;nieur en Informatique et Gestion';
 $translations['cvEnglish'] = 'Anglais';
-$translations['cvPreparatoryClasses'] = 'Classes Pr&eacute;paratoires aux ' . 'Grandes Ecoles';
 $translations['cvHighSchoolDiploma'] = 'Baccalaur&eacute;at Scientifique';
 
 $translations['cvAdditionalInformation'] = 'INFORMATIONS COMPLEMENTAIRES';
