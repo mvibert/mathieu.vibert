@@ -49,7 +49,7 @@ $translations['cvWorkMeritisDescription'] = 'Missions :<br/><br/>'
     .'<li>GPM9, API managing legal persons</li>'
     .'<li>Mod&egrave;le IA, application reviewing private persons data using data provided by AI and reliable sources</li></ul><br/>'
     .'Mission at CA-TS (Cr&eacute;dit Agricole Technologies et Services - 2 years) in the squad VPP (Vie des Personnes Physiques) on API controlling and managing private persons data<br/><br/>';
-$translations['cvWorkMeritisEnvironment'] = 'Environment : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes';
+$translations['cvWorkMeritisEnvironment'] = 'Environment : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes, AWS, S3';
 
 $translations['cvWorkThessDates'] = '2020 - 2023 (2 years)';
 $translations['cvWorkThessCompany'] = 'Thess Corporate';

@@ -31,7 +31,7 @@ $languages = array(
 );
 
 $networks = array(
-    'LinkedIn'/*, 'Monster'*/, 'Viadeo'
+    'LinkedIn', 'Viadeo'
 );
 
 // The summary data lives in its own file : arrays/summary.php
