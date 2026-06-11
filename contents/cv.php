@@ -27,7 +27,7 @@
     								
     						<?php
 								$birthDate = $translations['cvBirthdate'];
-								$years = [];
+								$years = array();
 								preg_match('/([0-9]{4})/', $birthDate, $years);
 								$birthYear = intval($years[0]);
 								$currentYear = intval(date('Y'));
