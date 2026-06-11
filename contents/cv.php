@@ -26,7 +26,14 @@
     						</a><br/>
     								
     						<?php
-    							echo $translations['cvBirthdate'];
+								$birthDate = $translations['cvBirthdate'];
+								$years = [];
+								preg_match('/([0-9]{4})/', $birthDate, $years);
+								$birthYear = intval($years[0]);
+								$currentYear = intval(date('Y'));
+								$duration = $currentYear - $birthYear;
+								$birthDate = str_replace('#NB_YEARS#', $duration, $birthDate);
+								echo $birthDate;
     						?><br/>
     					</div>
     				</div>

@@ -32,7 +32,7 @@ $translations['summaryTitle'] = 'R&eacute;sum&eacute;';
 
 // The summary section headings now live in arrays/summary.php (bilingual 'title').
 
-$translations['cvBirthdate'] = 'N&eacute; le 12/02/1988';
+$translations['cvBirthdate'] = 'N&eacute; le 12/02/1988 (#NB_YEARS# ans)';
 $translations['cvComputerSkills'] = 'CONNAISSANCES INFORMATIQUES';
 $translations['cvFrameworks'] = 'Frameworks';
 $translations['cvDesign'] = 'Conception';
