@@ -82,17 +82,6 @@ $summary['summaryVCS'] = array(
     )
 );
 
-$summary['summaryOS'] = array(
-    'title' => array(
-        'english' => 'Operating systems',
-        'french'  => 'Syst&egrave;mes d\'exploitation'
-    ),
-    'signs' => array(
-        'gnuLinux' => array('GNU/Linux', 'www.gnu.org/gnu/linux-and-gnu.fr.html'),
-        'windows'  => array('Windows', 'msdn.microsoft.com/fr-fr/windows/default')
-    )
-);
-
 $summary['summaryEducation'] = array(
     'title' => array(
         'english' => 'Education',

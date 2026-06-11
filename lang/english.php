@@ -36,7 +36,7 @@ $translations['cvBirthdate'] = 'Born on 02/12/1988 (#NB_YEARS# years)';
 $translations['cvComputerSkills'] = 'COMPUTER SKILLS';
 $translations['cvFrameworks'] = 'Frameworks';
 $translations['cvDesign'] = 'Design';
-$translations['cvOffice'] = 'Office Softwares';
+$translations['cvOS'] = 'Operating Systems';
 
 $translations['cvWorkExperience'] = 'WORK EXPERIENCE';
 

@@ -207,7 +207,7 @@
             							</li>
         								<li class="list-group-item border-primary">
             								<div class="row">
-            									<div class="col"><?php echo summaryPartTitle('summaryOS'); ?></div>
+            									<div class="col"><?php echo $translations['cvOS']; ?></div>
             									<div class="col-10">Windows, Linux</div>
             								</div>
             							</li>
