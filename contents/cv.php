@@ -108,7 +108,6 @@
         								<li class="list-group-item border-primary">
             								<div class="row">
             									<div class="col">
-													<?php displayCvSign('scrum', $educationSigns); ?>
 												</div>
             									<div class="col-10">
                     								<div class="row">
@@ -123,7 +122,6 @@
         								<li class="list-group-item border-primary">
             								<div class="row">
             									<div class="col">
-													<?php displayCvSign('scrum', $educationSigns); ?>
 												</div>
             									<div class="col-10">
                     								<div class="row">
@@ -138,7 +136,6 @@
             							<li class="list-group-item border-primary">
             								<div class="row">
             									<div class="col">
-													<?php displayCvSign('polytech', $educationSigns); ?>
 												</div>
             									<div class="col-10">
                     								<div class="row">

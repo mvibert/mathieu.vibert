@@ -18,9 +18,4 @@
 	
 	$mimeTypes['pdf'] = 'application/pdf';
 
-	$educationSigns = array(
-        'polytech' => array('Polytech Montpellier', 'polytech.umontpellier.fr/'),
-		'scrum' => array('Scrum', 'www.scrum.org')
-    );
-	
 ?>
