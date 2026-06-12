@@ -16,16 +16,20 @@
 ?>
 	
 			<div class="col" id="summary">
-				<div class="card text-center text-white border-primary pull-left">
-					<div class="card-header bg-primary"><?php echo $translations['summaryTitle']; ?></div>
-					<div class="card-body">
-    						<?php
-    						
-    							foreach ( $summary as $key => $part ) {
-    		       					displaySummaryPart(summaryPartTitle($key), $part['signs']);
-    							}
-    						
-    						?>
+				<div class="card text-center text-white border-primary pull-left summarySectionToggle" data-toggle="collapse" data-target="#summarySection" role="button" aria-expanded="true" aria-controls="summarySection">
+					<div class="card-header bg-primary">
+						<h3 class="summaryPartTitle"><?php echo $translations['summaryTitle']; ?></h3>
+					</div>
+					<div class="collapse show" id="summarySection">
+						<div class="card-body">
+								<?php
+								
+									foreach ( $summary as $key => $part ) {
+										displaySummaryPart(summaryPartTitle($key), $part['signs']);
+									}
+								
+								?>
+						</div>
 					</div>
 				</div>
 			</div>
