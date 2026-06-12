@@ -55,7 +55,7 @@ $translations['cvWorkMeritisDescription'] = 'Missions :<br/><br/>'
     .'<li>GPM9, API managing legal persons</li>'
     .'<li>Mod&egrave;le IA, application reviewing private persons data using data provided by AI and reliable sources</li></ul><br/>'
     .'Mission at CA-TS (Cr&eacute;dit Agricole Technologies et Services - 2 years) in the squad VPP (Vie des Personnes Physiques) on API controlling and managing private persons data<br/><br/>';
-$translations['cvWorkMeritisEnvironment'] = 'Environment : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes, AWS, S3';
+$translations['cvWorkMeritisEnvironment'] = 'Environment : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes, Kafka, AWS, S3';
 
 $translations['cvWorkThessDates'] = '2020 - 2023 (2 years)';
 $translations['cvWorkThessCompany'] = 'Thess Corporate';
@@ -73,7 +73,7 @@ $translations['cvWorkAusyDescription'] = 'Missions :<br/><br/>'
     .'<li>PDIR, web application overlay of Livedoc, Orange\'s Electronic Documents Management</li></ul><br/>'
     .'Mission at La Poste (2 months) on a web application handling events received from components handling La Poste services care to deal with them and distribute them in another format to billing service<br/><br/>'
     .'Mission at Orange (18 months) on an application for documents digital signature<br/><br/>';
-$translations['cvWorkAusyEnvironment'] = 'Environment : Java/J2EE, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git';
+$translations['cvWorkAusyEnvironment'] = 'Environment : Java/J2EE, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git, Docker, Kafka';
 
 $translations['cvWorkProsodieDates'] = '2012 - 2017 (5 years)';
 $translations['cvWorkProsodieCompany'] = 'Prosodie';

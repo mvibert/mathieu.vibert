@@ -55,7 +55,7 @@ $translations['cvWorkMeritisDescription'] = 'Missions :<br/><br/>'
     .'<li>GPM9, API de gestion de PM (Personnes Morales)</li>'
     .'<li>Mod&egrave;le IA, application de r&eacute;vision de donn&eacute;es de PP (Personnes Physiques) via des donn&eacute;es fournies par de l\'IA et des sources fiables</li></ul><br/>'
     .'Mission de 2 ans chez CA-TS (Cr&eacute;dit Agricole Technologies et Services) dans la squad VPP (Vie des Personnes Physiques) sur des API de contr&ocirc;le et de gestion de donn&eacute;es de PP (Personnes Physiques)<br/><br/>';
-$translations['cvWorkMeritisEnvironment'] = 'Environnement : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes, AWS, S3';
+$translations['cvWorkMeritisEnvironment'] = 'Environnement : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes, Kafka, AWS, S3';
 
 $translations['cvWorkThessDates'] = '2020 - 2023 (2 ans)';
 $translations['cvWorkThessCompany'] = 'Thess Corporate';
@@ -73,7 +73,7 @@ $translations['cvWorkAusyDescription'] = 'Missions :<br/><br/>'
     .'<li>PDIR, application web surcouche de Livedoc, Gestion Electronique de Documents d\'Orange</li></ul><br/>'
     .'Mission de 2 mois chez La Poste pour une application web permettant de r&eacute;ceptionner des &eacute;v&egrave;nements re&ccedil;us de composants g&eacute;rant la prise en charge de services de La Poste pour les traiter et les redistribuer sous un autre format vers le service de facturation<br/><br/>'
     .'Mission de 18 mois chez Orange pour une application de signature &eacute;lectronique de documents<br/><br/>';
-$translations['cvWorkAusyEnvironment'] = 'Environnement : Java/J2EE, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git';
+$translations['cvWorkAusyEnvironment'] = 'Environnement : Java/J2EE, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git, Docker, Kafka';
 
 $translations['cvWorkProsodieDates'] = '2012 - 2017 (5 ans)';
 $translations['cvWorkProsodieCompany'] = 'Prosodie';
