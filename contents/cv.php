@@ -21,10 +21,14 @@
 							<b>
 							<?php
 								$cvTitle = $translations['cvTitle'];
-								$years = array();
-								$beginningYear = 2011;
-								$currentYear = intval(date('Y'));
-								$duration = $currentYear - $beginningYear;
+								$beginningTimestamp = mktime(0, 0, 0, 2, 28, 2011);
+								$duration = intval(date('Y')) - intval(date('Y', $beginningTimestamp));
+								// remove the current year while the anniversary (28th February) has not occurred yet
+								if (intval(date('n')) < intval(date('n', $beginningTimestamp))
+										|| (intval(date('n')) == intval(date('n', $beginningTimestamp))
+											&& intval(date('j')) < intval(date('j', $beginningTimestamp)))) {
+									$duration--;
+								}
 								$cvTitle = str_replace('#NB_YEARS#', $duration, $cvTitle);
 								echo $cvTitle;
 							?>
