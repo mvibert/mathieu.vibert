@@ -79,6 +79,24 @@
 	outline-offset: 2px;
 }
 
+.cvSectionToggle {
+	cursor: pointer;
+}
+
+.cvSectionToggle .cvPartTitle::before {
+	content: '\25B8';
+	margin-right: 0.5rem;
+}
+
+.cvSectionToggle[aria-expanded="true"] .cvPartTitle::before {
+	content: '\25BE';
+}
+
+.cvSectionToggle:focus {
+	outline: 2px solid #ffffff;
+	outline-offset: -4px;
+}
+
 .cvWorkControls {
 	margin-top: 1vh;
 	margin-bottom: 1vh;

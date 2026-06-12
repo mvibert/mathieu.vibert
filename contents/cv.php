@@ -73,201 +73,209 @@
         				<div class="row">
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionWorkExperience" role="button" aria-expanded="true" aria-controls="cvSectionWorkExperience">
         								<h3 class="cvPartTitle"><?php echo $translations['cvWorkExperience']?></h3>
         							</div>
-        							<div class="text-center cvWorkControls">
-        								<button type="button" id="cvExpandAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvExpandAll']; ?></button>
-        								<button type="button" id="cvCollapseAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvCollapseAll']; ?></button>
-        							</div>
-        							<ul class="list-group list-group-flush">
-        								<?php
-        									foreach ( $companies as $index => $company ) {
-        										$bodyId = 'cvWork'.$company.'Body';
-        										$collapseClass = ($index == 0) ? 'collapse show' : 'collapse';
-        										$ariaExpanded = ($index == 0) ? 'true' : 'false';
-        								?>
-                							<li class="list-group-item border-primary">
-                								<div class="row">
-                									<div class="col"></div>
-                									<div class="col-10">
-                        								<a class="cvWorkToggle" data-toggle="collapse" href="#<?php echo $bodyId; ?>" role="button" aria-expanded="<?php echo $ariaExpanded; ?>" aria-controls="<?php echo $bodyId; ?>">
-                        								<div class="row">
-                        									<b><?php echo $translations['cvWork'.$company.'Role']; ?></b>
-                        								</div>
-                        								<div class="row">
-                        									<b><?php echo $translations['cvWork'.$company.'Company']; ?></b>
-                        								</div>
-                        								<div class="row text-secondary">
-                        									<?php
-																$companiesDates = $translations['cvWork'.$company.'Dates'];
-																$beginningYear = intval(substr($companiesDates, 0, 4));
-																$currentYear = intval(date('Y'));
-																$duration = $currentYear - $beginningYear;
-																$companiesDates = str_replace('#NB_YEARS#', $duration, $companiesDates);
-																echo $companiesDates;
-															?>
-                        								</div>
-                        								</a>
-                        								<div class="cvWorkBody <?php echo $collapseClass; ?>" id="<?php echo $bodyId; ?>">
+        							<div class="collapse show" id="cvSectionWorkExperience">
+										<div class="text-center cvWorkControls">
+											<button type="button" id="cvExpandAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvExpandAll']; ?></button>
+											<button type="button" id="cvCollapseAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvCollapseAll']; ?></button>
+										</div>
+										<ul class="list-group list-group-flush">
+											<?php
+												foreach ( $companies as $index => $company ) {
+													$bodyId = 'cvWork'.$company.'Body';
+													$collapseClass = ($index == 0) ? 'collapse show' : 'collapse';
+													$ariaExpanded = ($index == 0) ? 'true' : 'false';
+											?>
+												<li class="list-group-item border-primary">
+													<div class="row">
+														<div class="col"></div>
+														<div class="col-10">
+															<a class="cvWorkToggle" data-toggle="collapse" href="#<?php echo $bodyId; ?>" role="button" aria-expanded="<?php echo $ariaExpanded; ?>" aria-controls="<?php echo $bodyId; ?>">
 															<div class="row">
-																<?php echo $translations['cvWork'.$company.'Description']; ?>
+																<b><?php echo $translations['cvWork'.$company.'Role']; ?></b>
 															</div>
-															<?php
-																	if (isset($translations['cvWork'.$company.'DescriptionEnd'])) {
+															<div class="row">
+																<b><?php echo $translations['cvWork'.$company.'Company']; ?></b>
+															</div>
+															<div class="row text-secondary">
+																<?php
+																	$companiesDates = $translations['cvWork'.$company.'Dates'];
+																	$beginningYear = intval(substr($companiesDates, 0, 4));
+																	$currentYear = intval(date('Y'));
+																	$duration = $currentYear - $beginningYear;
+																	$companiesDates = str_replace('#NB_YEARS#', $duration, $companiesDates);
+																	echo $companiesDates;
+																?>
+															</div>
+															</a>
+															<div class="cvWorkBody <?php echo $collapseClass; ?>" id="<?php echo $bodyId; ?>">
+																<div class="row">
+																	<?php echo $translations['cvWork'.$company.'Description']; ?>
+																</div>
+																<?php
+																		if (isset($translations['cvWork'.$company.'DescriptionEnd'])) {
+																			?>
+																			
+																<div class="row">
+																	<?php echo $translations['cvWork'.$company.'DescriptionEnd']; ?>
+																</div>
+																	
+																			<?php
+																		}
 																		?>
 																		
-															<div class="row">
-																<?php echo $translations['cvWork'.$company.'DescriptionEnd']; ?>
+																<div class="row">
+																	<b><?php echo $translations['cvWork'.$company.'Environment']; ?></b>
+																</div>
 															</div>
-																
-																		<?php
-																	}
-																	?>
-																	
-															<div class="row">
-																<b><?php echo $translations['cvWork'.$company.'Environment']; ?></b>
-															</div>
-                        								</div>
-                        							</div>
-                    							</div>
-                    						</li>
-        										
-        										<?php
-        									}
-        								?>
-        							</ul>
+														</div>
+													</div>
+												</li>
+													
+													<?php
+												}
+											?>
+										</ul>
+        							</div>
         						</div>
         					</div>
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionEducation" role="button" aria-expanded="true" aria-controls="cvSectionEducation">
         								<h3 class="cvPartTitle"><?php echo $translations['cvEducation']; ?></h3>
         							</div>
-        							<ul class="list-group list-group-flush">
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col">
+        							<div class="collapse show" id="cvSectionEducation">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col">
+													</div>
+													<div class="col-10">
+														<div class="row">
+															<b>Professional Scrum Developer 1 (PSD1)</b>
+														</div>
+														<div class="row text-secondary">
+															2023
+														</div>
+													</div>
 												</div>
-            									<div class="col-10">
-                    								<div class="row">
-                										<b>Professional Scrum Developer 1 (PSD1)</b>
-                    								</div>
-                    								<div class="row text-secondary">
-                    									2023
-                    								</div>
-                								</div>
-            								</div>
-        								</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col">
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col">
+													</div>
+													<div class="col-10">
+														<div class="row">
+															<b>Professional Scrum Master 1 (PSM1)</b>
+														</div>
+														<div class="row text-secondary">
+															2019
+														</div>
+													</div>
 												</div>
-            									<div class="col-10">
-                    								<div class="row">
-                										<b>Professional Scrum Master 1 (PSM1)</b>
-                    								</div>
-                    								<div class="row text-secondary">
-                    									2019
-                    								</div>
-                								</div>
-            								</div>
-        								</li>
-            							<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col">
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col">
+													</div>
+													<div class="col-10">
+														<div class="row">
+															<b><?php echo $translations['cvPolytechDepartment'].', Polytech\'Montpellier'; ?></b>
+														</div>
+														<div class="row text-secondary">
+															2007-2011
+														</div>
+														<div class="row">
+															<?php echo $translations['cvEnglish']; ?> : TOEIC 875 / 990
+														</div>
+													</div>
 												</div>
-            									<div class="col-10">
-                    								<div class="row">
-                    									<b><?php echo $translations['cvPolytechDepartment'].', Polytech\'Montpellier'; ?></b>
-                    								</div>
-                    								<div class="row text-secondary">
-                    									2007-2011
-                    								</div>
-                    								<div class="row">
-                    									<?php echo $translations['cvEnglish']; ?> : TOEIC 875 / 990
-                    								</div>
-                								</div>
-            								</div>
-        								</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col">
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col">
+													</div>
+													<div class="col-10">
+														<div class="row">
+															<b><?php echo $translations['cvHighSchoolDiploma']; ?></b>
+														</div>
+														<div class="row text-secondary">
+															2005
+														</div>
+													</div>
 												</div>
-            									<div class="col-10">
-                    								<div class="row">
-                										<b><?php echo $translations['cvHighSchoolDiploma']; ?></b>
-                    								</div>
-                    								<div class="row text-secondary">
-                    									2005
-                    								</div>
-                								</div>
-            								</div>
-        								</li>
-        							</ul>
+											</li>
+										</ul>
+        							</div>
         						</div>
         					</div>
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionComputerSkills" role="button" aria-expanded="true" aria-controls="cvSectionComputerSkills">
         								<h3 class="cvPartTitle"><?php echo $translations['cvComputerSkills']; ?></h3>
         							</div>
-        							<ul class="list-group list-group-flush">
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col"><?php echo summaryPartTitle('summarySoftwareProgramming'); ?></div>
-            									<div class="col-10"><b>Java</b></div>
-            								</div>
-            							</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col"><?php echo summaryPartTitle('summaryWebProgramming'); ?></div>
-            									<div class="col-10"><b>XHTML, JavaScript, CSS, JQuery, Bootstrap, PHP, ASP.Net, J2EE, AngularJS</b></div>
-            								</div>
-            							</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col"><?php echo $translations['cvFrameworks']; ?></div>
-            									<div class="col-10"><b>.Net, Hibernate, Spring, Thymeleaf</b></div>
-            								</div>
-            							</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col"><?php echo summaryPartTitle('summaryDBMS'); ?></div>
-            									<div class="col-10"><b>MySQL, Oracle, PostgreSQL, SQLServer, IBM Db2, MongoDB</b></div>
-            								</div>
-            							</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col"><?php echo summaryPartTitle('summaryVCS'); ?></div>
-            									<div class="col-10"><b>Git, SVN</b></div>
-            								</div>
-            							</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col"><?php echo $translations['cvDesign']; ?></div>
-            									<div class="col-10">Merise, UML</div>
-            								</div>
-            							</li>
-        								<li class="list-group-item border-primary">
-            								<div class="row">
-            									<div class="col"><?php echo $translations['cvOS']; ?></div>
-            									<div class="col-10">Windows, Linux</div>
-            								</div>
-            							</li>
+        							<div class="collapse show" id="cvSectionComputerSkills">
+										<ul class="list-group list-group-flush">
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col"><?php echo summaryPartTitle('summarySoftwareProgramming'); ?></div>
+													<div class="col-10"><b>Java</b></div>
+												</div>
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col"><?php echo summaryPartTitle('summaryWebProgramming'); ?></div>
+													<div class="col-10"><b>XHTML, JavaScript, CSS, JQuery, Bootstrap, PHP, ASP.Net, J2EE, AngularJS</b></div>
+												</div>
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col"><?php echo $translations['cvFrameworks']; ?></div>
+													<div class="col-10"><b>.Net, Hibernate, Spring, Thymeleaf</b></div>
+												</div>
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col"><?php echo summaryPartTitle('summaryDBMS'); ?></div>
+													<div class="col-10"><b>MySQL, Oracle, PostgreSQL, SQLServer, IBM Db2, MongoDB</b></div>
+												</div>
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col"><?php echo summaryPartTitle('summaryVCS'); ?></div>
+													<div class="col-10"><b>Git, SVN</b></div>
+												</div>
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col"><?php echo $translations['cvDesign']; ?></div>
+													<div class="col-10">Merise, UML</div>
+												</div>
+											</li>
+											<li class="list-group-item border-primary">
+												<div class="row">
+													<div class="col"><?php echo $translations['cvOS']; ?></div>
+													<div class="col-10">Windows, Linux</div>
+												</div>
+											</li>
+										</ul>
         							</div>
-        						</ul>
+        						</div>
         					</div>
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionAdditionalInformation" role="button" aria-expanded="true" aria-controls="cvSectionAdditionalInformation">
         								<h3 class="cvPartTitle"><?php echo $translations['cvAdditionalInformation']; ?></h3>
         							</div>
-        							<div class="card-body">
-        								<div class="row">
-        									<div class="col"></div>
-        									<div class="col-10"><?php echo $translations['cvDrivingLicence']; ?></div>
-        								</div>
+        							<div class="collapse show" id="cvSectionAdditionalInformation">
+										<div class="card-body">
+											<div class="row">
+												<div class="col"></div>
+												<div class="col-10"><?php echo $translations['cvDrivingLicence']; ?></div>
+											</div>
+										</div>
         							</div>
         						</div>
         					</div>
