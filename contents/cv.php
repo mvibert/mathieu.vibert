@@ -219,25 +219,63 @@
         							<div class="collapse show" id="cvSectionComputerSkills">
 										<div class="card-body">
 											<?php
+												// Each skill is array('name' => label, 'level' => percentage 0-100).
+												// Levels default to 100 (max) : adjust each one manually as needed.
 												$computerSkills = array(
-													array('title' => summaryPartTitle('summarySoftwareProgramming'), 'skills' => array('Java')),
-													array('title' => summaryPartTitle('summaryWebProgramming'),      'skills' => array('XHTML', 'JavaScript', 'CSS', 'JQuery', 'Bootstrap', 'PHP', 'ASP.Net', 'J2EE', 'AngularJS')),
-													array('title' => $translations['cvFrameworks'],                  'skills' => array('.Net', 'Hibernate', 'Spring', 'Thymeleaf')),
-													array('title' => summaryPartTitle('summaryDBMS'),                'skills' => array('MySQL', 'Oracle', 'PostgreSQL', 'SQLServer', 'IBM Db2', 'MongoDB')),
-													array('title' => summaryPartTitle('summaryVCS'),                 'skills' => array('Git', 'SVN')),
-													array('title' => $translations['cvDesign'],                      'skills' => array('Merise', 'UML')),
-													array('title' => $translations['cvOS'],                          'skills' => array('Windows', 'Linux'))
+													array('title' => summaryPartTitle('summarySoftwareProgramming'), 'skills' => array(
+														array('name' => 'Java', 'level' => 90)
+													)),
+													array('title' => summaryPartTitle('summaryWebProgramming'), 'skills' => array(
+														array('name' => 'XHTML',      'level' => 70),
+														array('name' => 'JavaScript', 'level' => 70),
+														array('name' => 'CSS',        'level' => 70),
+														array('name' => 'JQuery',     'level' => 60),
+														array('name' => 'Bootstrap',  'level' => 70),
+														array('name' => 'PHP',        'level' => 50),
+														array('name' => 'ASP.Net',    'level' => 30),
+														array('name' => 'J2EE',       'level' => 90),
+														array('name' => 'AngularJS',  'level' => 50)
+													)),
+													array('title' => $translations['cvFrameworks'], 'skills' => array(
+														array('name' => '.Net',      'level' => 30),
+														array('name' => 'Hibernate', 'level' => 80),
+														array('name' => 'Spring',    'level' => 90),
+														array('name' => 'Thymeleaf', 'level' => 80)
+													)),
+													array('title' => summaryPartTitle('summaryDBMS'), 'skills' => array(
+														array('name' => 'MySQL',      'level' => 90),
+														array('name' => 'Oracle',     'level' => 90),
+														array('name' => 'PostgreSQL', 'level' => 90),
+														array('name' => 'SQLServer',  'level' => 80),
+														array('name' => 'IBM Db2',    'level' => 90),
+														array('name' => 'MongoDB',    'level' => 80)
+													)),
+													array('title' => summaryPartTitle('summaryVCS'), 'skills' => array(
+														array('name' => 'Git', 'level' => 90),
+														array('name' => 'SVN', 'level' => 90)
+													)),
+													array('title' => $translations['cvDesign'], 'skills' => array(
+														array('name' => 'Merise', 'level' => 80),
+														array('name' => 'UML',    'level' => 80)
+													)),
+													array('title' => $translations['cvOS'], 'skills' => array(
+														array('name' => 'Windows', 'level' => 90),
+														array('name' => 'Linux',   'level' => 70)
+													))
 												);
 											?>
 											<div class="row">
 												<?php foreach ( $computerSkills as $skillGroup ) { ?>
 												<div class="col-md-6 cvSkillGroup">
 													<h5 class="cvSkillGroupTitle text-primary"><?php echo $skillGroup['title']; ?></h5>
-													<div class="cvSkillBadges">
-														<?php foreach ( $skillGroup['skills'] as $skill ) { ?>
-														<span class="badge badge-pill cvSkillBadge"><?php echo $skill; ?></span>
-														<?php } ?>
+													<?php foreach ( $skillGroup['skills'] as $skill ) { ?>
+													<div class="cvSkill">
+														<div class="cvSkillLabel"><?php echo $skill['name']; ?></div>
+														<div class="progress cvSkillProgress">
+															<div class="progress-bar bg-primary" role="progressbar" style="width: <?php echo $skill['level']; ?>%" aria-valuenow="<?php echo $skill['level']; ?>" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
 													</div>
+													<?php } ?>
 												</div>
 												<?php } ?>
 											</div>
