@@ -10,13 +10,6 @@ defined ( 'ROOT' ) or die ( 'Restricted access' );
 
 // ///////////////////////////////////////////////////////////////////////////////////////
 
-/*
- * Links for the summary signs now live next to their label in arrays/summary.php.
- * This array only keeps the network signs whose link is not held in the language
- * files (used by displayNetworkSign()).
- */
-$links ['monster'] = 'home.monster.fr/';
-
 $referer ['CSS'] = 'http://jigsaw.w3.org/css-validator/check/referer';
 $referer ['XHTML'] = 'http://validator.w3.org/check?uri=referer';
 
