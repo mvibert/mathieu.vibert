@@ -41,7 +41,7 @@
     			<div class="card">
     				<div id="footer" class="card-header text-white bg-primary">
     					<div class="text-center">
-    						<h6>Copyright &copy; - <?php echo $translations['footerAllRightsReserved'] ?></h6>
+    						<h6>Copyright &copy; 2010 - <?php echo date("Y"); ?>. <?php echo $translations['footerAllRightsReserved'] ?></h6>
     					</div>
     				</div>
 				</div>
