@@ -18,22 +18,17 @@
 				<div id="contact" class="card border-primary">
 					<div class="card-header text-white bg-primary"><?php echo $translations['homeContact']?></div>
 					<div class="card-body col-sm-12 text-center">
+
+						<?php
+							foreach ( $networks as $networkTitle => $class ) {
+								displayNetworkSign($networkTitle, $class);
+							}
+						?>
+
 						<a class="btn btn-light" href="mailto:<?php echo $email; ?>" target="_blank">
 							<i class="fas fa-envelope fa-3x text-primary"></i>
 						</a>
 					</div>
-				</div>
-				<div id="networks" class="card border-primary">
-					<div class="card-header text-white bg-primary"><?php echo $translations['homeNetworks']?></div>
-					<div class="card-body">
-					
-						<?php
-							foreach ( $networks as $networkTitle ) {
-								displayNetworkSign($networkTitle);
-							}
-						?>
-
-					</div>						
 				</div>
 			</div>
 			

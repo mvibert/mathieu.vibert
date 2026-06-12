@@ -189,25 +189,22 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
-	 * Displays the sign of a Network using its title
+	 * Displays the icon of a Network using its title
 	 * 
-	 * @param $title The title of the sign displayed
+	 * @param $title The title of the network displayed
+	 * @param $class The class of the network displayed (used for the icon of the network)
 	 */
-	function displayNetworkSign($signTitle) {
+	function displayNetworkSign($title, $class) {
 		global $links;
 		global $translations;
-		$sign = strtolower($signTitle);
+		$networkCode = strtolower($title);
 		
-		$link = $translations[$sign.'Link'];
+		$link = $translations[$networkCode.'Link'];
 		
 		?>
 
-						<a href="http://<?php echo $link ?>" target="_blank">
-							<img src="pictures/signs/<?php echo $sign ?>Sign.png"
-								alt="<?php echo $signTitle ?>" title="<?php echo $signTitle ?>"
-								onmouseout="this.style.opacity=1;this.filter='alpha(opacity=100)'"
-								onmouseover="this.style.opacity=0.6;this.filter='alpha(opacity=60)'"
-								/>
+						<a class="btn btn-light" href="http://<?php echo $link ?>" title="<?php echo $title ?>" target="_blank">
+							<i class="fab <?php echo $class ?> fa-3x text-primary"></i>
 						</a>
 				
 		<?php

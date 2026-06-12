@@ -22,7 +22,6 @@ $translations['language'] = 'Langue';
 $translations['homeMessage'] = 'Bienvenue ! Je me pr&eacute;sente, Mathieu Vibert, dipl&ocirc;m&eacute; de l\'&eacute;cole d\'ing&eacute;nieur Polytech Montpellier ' . 'en Informatique et Gestion. Je travaille comme ing&eacute;nieur &eacute;tude et d&eacute;veloppement et m\'int&eacute;resse aux nouvelles technologies. J\'aime bien exp&eacute;rimenter de nouveaux langages et de ' . 'nouvelles plate-formes logicielles, de mani&egrave;re g&eacute;n&eacute;rale de nouvelles technologies.';
 $translations['homePresentation'] = 'Pr&eacute;sentation';
 $translations['homeContact'] = 'Contact';
-$translations['homeNetworks'] = 'R&eacute;seaux';
 $translations['homeWebsiteInDevelopment'] = 'Ce site web est en cours de developpement';
 
 $translations['linkedinLink'] = 'www.linkedin.com/in/mathieufvibert/fr';

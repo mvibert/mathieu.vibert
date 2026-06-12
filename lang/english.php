@@ -22,7 +22,6 @@ $translations['language'] = 'Language';
 $translations['homeMessage'] = 'Welcome ! My name is Mathieu Vibert and I am ' . 'graduate from Engineering School Polytech Montpellier ' . 'in Computer Science and Management. I work as an engineer in study and development and I am interested by new ' . 'technologies. I like to experiment with new languages and new software platforms, globally new technologies.';
 $translations['homePresentation'] = 'Presentation';
 $translations['homeContact'] = 'Contact';
-$translations['homeNetworks'] = 'Networks';
 $translations['homeWebsiteInDevelopment'] = 'This website is still in development';
 
 $translations['linkedinLink'] = 'www.linkedin.com/in/mathieufvibert/en';
