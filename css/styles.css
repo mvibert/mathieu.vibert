@@ -79,6 +79,16 @@
 	outline-offset: 2px;
 }
 
+.cvWorkControls {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.cvWorkControls .btn {
+	margin-left: 0.3vw;
+	margin-right: 0.3vw;
+}
+
 .cvFileDownloadButton {
 	margin-top: 0.5vh;
 }

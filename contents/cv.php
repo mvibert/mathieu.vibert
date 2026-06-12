@@ -76,6 +76,10 @@
         							<div class="strip card-header text-white bg-primary text-center">
         								<h3 class="cvPartTitle"><?php echo $translations['cvWorkExperience']?></h3>
         							</div>
+        							<div class="text-center cvWorkControls">
+        								<button type="button" id="cvExpandAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvExpandAll']; ?></button>
+        								<button type="button" id="cvCollapseAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvCollapseAll']; ?></button>
+        							</div>
         							<ul class="list-group list-group-flush">
         								<?php
         									foreach ( $companies as $index => $company ) {
@@ -105,7 +109,7 @@
 															?>
                         								</div>
                         								</a>
-                        								<div class="<?php echo $collapseClass; ?>" id="<?php echo $bodyId; ?>">
+                        								<div class="cvWorkBody <?php echo $collapseClass; ?>" id="<?php echo $bodyId; ?>">
 															<div class="row">
 																<?php echo $translations['cvWork'.$company.'Description']; ?>
 															</div>

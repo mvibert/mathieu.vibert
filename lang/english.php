@@ -40,6 +40,8 @@ $translations['cvDesign'] = 'Design';
 $translations['cvOS'] = 'Operating Systems';
 
 $translations['cvWorkExperience'] = 'WORK EXPERIENCE';
+$translations['cvExpandAll'] = 'Expand all';
+$translations['cvCollapseAll'] = 'Collapse all';
 
 $translations['cvWorkMeritisDates'] = '2023 - now (#NB_YEARS# years)';
 $translations['cvWorkMeritisCompany'] = 'Meritis';

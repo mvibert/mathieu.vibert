@@ -8,5 +8,17 @@ $(document).ready(function() {
 		var form = $(this).parents('form:first');
 		form.submit();
 	});
-	
+
+	/***************************************************************************
+	 * Expand / collapse all the work experience entries on the CV page
+	 */
+
+	$('#cvExpandAll').click(function() {
+		$('.cvWorkBody').collapse('show');
+	});
+
+	$('#cvCollapseAll').click(function() {
+		$('.cvWorkBody').collapse('hide');
+	});
+
 });
