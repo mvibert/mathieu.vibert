@@ -78,12 +78,16 @@
         							</div>
         							<ul class="list-group list-group-flush">
         								<?php
-        									foreach ( $companies as $company ) {
+        									foreach ( $companies as $index => $company ) {
+        										$bodyId = 'cvWork'.$company.'Body';
+        										$collapseClass = ($index == 0) ? 'collapse show' : 'collapse';
+        										$ariaExpanded = ($index == 0) ? 'true' : 'false';
         								?>
                 							<li class="list-group-item border-primary">
                 								<div class="row">
                 									<div class="col"></div>
                 									<div class="col-10">
+                        								<a class="cvWorkToggle" data-toggle="collapse" href="#<?php echo $bodyId; ?>" role="button" aria-expanded="<?php echo $ariaExpanded; ?>" aria-controls="<?php echo $bodyId; ?>">
                         								<div class="row">
                         									<b><?php echo $translations['cvWork'.$company.'Role']; ?></b>
                         								</div>
@@ -100,23 +104,26 @@
 																echo $companiesDates;
 															?>
                         								</div>
-                        								<div class="row">
-                        									<?php echo $translations['cvWork'.$company.'Description']; ?>
-                        								</div>
-                        								<?php
-                        										if (isset($translations['cvWork'.$company.'DescriptionEnd'])) {
-                        											?>
-                        											
-                        								<div class="row">
-                        									<?php echo $translations['cvWork'.$company.'DescriptionEnd']; ?>
-                        								</div>
-                											
-                        											<?php
-                        										}
-                        										?>
-                        										
-                        								<div class="row">
-                        									<b><?php echo $translations['cvWork'.$company.'Environment']; ?></b>
+                        								</a>
+                        								<div class="<?php echo $collapseClass; ?>" id="<?php echo $bodyId; ?>">
+															<div class="row">
+																<?php echo $translations['cvWork'.$company.'Description']; ?>
+															</div>
+															<?php
+																	if (isset($translations['cvWork'.$company.'DescriptionEnd'])) {
+																		?>
+																		
+															<div class="row">
+																<?php echo $translations['cvWork'.$company.'DescriptionEnd']; ?>
+															</div>
+																
+																		<?php
+																	}
+																	?>
+																	
+															<div class="row">
+																<b><?php echo $translations['cvWork'.$company.'Environment']; ?></b>
+															</div>
                         								</div>
                         							</div>
                     							</div>
