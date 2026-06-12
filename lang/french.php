@@ -113,7 +113,7 @@ $translations['cvDrivingLicence'] = 'Permis B';
 $translations['cvFirstAidCertificate'] = 'AFPS';
 $translations['cvDiplomaWorkingChidren'] = 'BAFA';
 
-$translations['cvFileLink'] = 'R&eacute;cup&eacute;rer le CV au format';
+$translations['cvFileLink'] = 'R&eacute;cup&eacute;rer le CV au format PDF';
 
 $translations['footerCSSPicture'] = 'Feuille de style CSS valide';
 $translations['footerXHTMLPicture'] = 'Page web XHTML 1.0 valide';

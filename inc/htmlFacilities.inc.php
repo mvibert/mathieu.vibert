@@ -163,41 +163,23 @@
 	function displayCvFilesLinks() {
 		global $cvFormats;
 		global $translations;
-		
+
+		$format = 'pdf';
+		$formatName = $cvFormats[$format];
+		$cvFileLink = $translations['cvFileLink'];
 		?>
 
-				<div class="row">
+				<div class="row text-center">
     				<div class="col"></div>
-    				<div id="cvFilesLinks" class="col-8">
-    					<div class="card border-primary text-center">
-    						<div class="card-header text-white bg-primary"><?php echo $translations['cvFileLink']; ?></div>
-    						<div class="card-body">
-    						
-    					<?php
-    					
-    						foreach ($cvFormats as $format => $formatName) {
-    						
-    					?>
-    			
-    							<div class="col-md-12">
-    								<a href="files/downloadFile.php?extension=<?php
-    											echo $format;
-    										?>&amp;file=<?php
-    											echo 'cvMathieuVibert_'.$_SESSION['lang'];
-    										?>" target="_blank">
-    									<button class="btn btn-primary" title="<?php echo $formatName; ?>"><?php echo $formatName; ?></button>
-    								</a>
-    							</div>
-    						
-    					<?php
-    					
-    						}
-    					
-    					?>
-    					
-    						</div>
-    					</div>
-    				</div>
+    				<div class="col-8">
+						<a href="files/downloadFile.php?extension=<?php
+									echo $format;
+								?>&amp;file=<?php
+									echo 'cvMathieuVibert_'.$_SESSION['lang'];
+								?>" target="_blank">
+							<button class="btn btn-primary" title="<?php echo $cvFileLink; ?>"><?php echo $cvFileLink; ?></button>
+						</a>
+					</div>
     				<div class="col"></div>
 				</div>
 		<?php

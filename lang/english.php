@@ -113,7 +113,7 @@ $translations['cvDrivingLicence'] = 'Full driving licence';
 $translations['cvFirstAidCertificate'] = 'First Aid Certificate';
 $translations['cvDiplomaWorkingChidren'] = 'Diploma for working with children ' . 'in holidays';
 
-$translations['cvFileLink'] = 'Get the CV as';
+$translations['cvFileLink'] = 'Get the CV as PDF file';
 
 $translations['footerCSSPicture'] = 'Valid CSS stylesheet';
 $translations['footerXHTMLPicture'] = 'Valid XHTML 1.0 web page';
