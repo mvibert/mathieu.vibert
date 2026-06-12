@@ -97,6 +97,32 @@
 	outline-offset: -4px;
 }
 
+.cvSkillGroup {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.cvSkillGroupTitle {
+	font-weight: bold;
+	margin-bottom: 0.8vh;
+}
+
+.cvSkillBadge {
+	background-color: #ffffff;
+	color: #007bff;
+	border: 1px solid #007bff;
+	font-size: 0.85rem;
+	font-weight: normal;
+	padding: 0.45em 0.8em;
+	margin: 0.4vh 0.4vw 0.4vh 0;
+	transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.cvSkillBadge:hover {
+	background-color: #007bff;
+	color: #ffffff;
+}
+
 .cvWorkControls {
 	margin-top: 1vh;
 	margin-bottom: 1vh;

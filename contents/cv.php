@@ -217,50 +217,31 @@
         								<h3 class="cvPartTitle"><?php echo $translations['cvComputerSkills']; ?></h3>
         							</div>
         							<div class="collapse show" id="cvSectionComputerSkills">
-										<ul class="list-group list-group-flush">
-											<li class="list-group-item border-primary">
-												<div class="row">
-													<div class="col"><?php echo summaryPartTitle('summarySoftwareProgramming'); ?></div>
-													<div class="col-10"><b>Java</b></div>
+										<div class="card-body">
+											<?php
+												$computerSkills = array(
+													array('title' => summaryPartTitle('summarySoftwareProgramming'), 'skills' => array('Java')),
+													array('title' => summaryPartTitle('summaryWebProgramming'),      'skills' => array('XHTML', 'JavaScript', 'CSS', 'JQuery', 'Bootstrap', 'PHP', 'ASP.Net', 'J2EE', 'AngularJS')),
+													array('title' => $translations['cvFrameworks'],                  'skills' => array('.Net', 'Hibernate', 'Spring', 'Thymeleaf')),
+													array('title' => summaryPartTitle('summaryDBMS'),                'skills' => array('MySQL', 'Oracle', 'PostgreSQL', 'SQLServer', 'IBM Db2', 'MongoDB')),
+													array('title' => summaryPartTitle('summaryVCS'),                 'skills' => array('Git', 'SVN')),
+													array('title' => $translations['cvDesign'],                      'skills' => array('Merise', 'UML')),
+													array('title' => $translations['cvOS'],                          'skills' => array('Windows', 'Linux'))
+												);
+											?>
+											<div class="row">
+												<?php foreach ( $computerSkills as $skillGroup ) { ?>
+												<div class="col-md-6 cvSkillGroup">
+													<h5 class="cvSkillGroupTitle text-primary"><?php echo $skillGroup['title']; ?></h5>
+													<div class="cvSkillBadges">
+														<?php foreach ( $skillGroup['skills'] as $skill ) { ?>
+														<span class="badge badge-pill cvSkillBadge"><?php echo $skill; ?></span>
+														<?php } ?>
+													</div>
 												</div>
-											</li>
-											<li class="list-group-item border-primary">
-												<div class="row">
-													<div class="col"><?php echo summaryPartTitle('summaryWebProgramming'); ?></div>
-													<div class="col-10"><b>XHTML, JavaScript, CSS, JQuery, Bootstrap, PHP, ASP.Net, J2EE, AngularJS</b></div>
-												</div>
-											</li>
-											<li class="list-group-item border-primary">
-												<div class="row">
-													<div class="col"><?php echo $translations['cvFrameworks']; ?></div>
-													<div class="col-10"><b>.Net, Hibernate, Spring, Thymeleaf</b></div>
-												</div>
-											</li>
-											<li class="list-group-item border-primary">
-												<div class="row">
-													<div class="col"><?php echo summaryPartTitle('summaryDBMS'); ?></div>
-													<div class="col-10"><b>MySQL, Oracle, PostgreSQL, SQLServer, IBM Db2, MongoDB</b></div>
-												</div>
-											</li>
-											<li class="list-group-item border-primary">
-												<div class="row">
-													<div class="col"><?php echo summaryPartTitle('summaryVCS'); ?></div>
-													<div class="col-10"><b>Git, SVN</b></div>
-												</div>
-											</li>
-											<li class="list-group-item border-primary">
-												<div class="row">
-													<div class="col"><?php echo $translations['cvDesign']; ?></div>
-													<div class="col-10">Merise, UML</div>
-												</div>
-											</li>
-											<li class="list-group-item border-primary">
-												<div class="row">
-													<div class="col"><?php echo $translations['cvOS']; ?></div>
-													<div class="col-10">Windows, Linux</div>
-												</div>
-											</li>
-										</ul>
+												<?php } ?>
+											</div>
+										</div>
         							</div>
         						</div>
         					</div>
