@@ -216,12 +216,7 @@
 		global $translations;
 		$sign = strtolower($signTitle);
 		
-		if (array_key_exists($sign, $links)) {
-			$link = $links[$sign];
-		}
-		else {
-			$link = $translations[$sign.'Link'];
-		}
+		$link = $translations[$sign.'Link'];
 		
 		?>
 
