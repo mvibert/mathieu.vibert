@@ -17,9 +17,9 @@
 			<div id="contactAndNetworks" class="col text-center">
 				<div id="contact" class="card border-primary">
 					<div class="card-header text-white bg-primary"><?php echo $translations['homeContact']?></div>
-					<div class="card-body">
-						<a href="mailto:<?php echo $email; ?>">
-							<?php echo $email; ?>
+					<div class="card-body col-sm-12 text-center">
+						<a class="btn btn-light" href="mailto:<?php echo $email; ?>" target="_blank">
+							<i class="fas fa-envelope fa-3x text-primary"></i>
 						</a>
 					</div>
 				</div>

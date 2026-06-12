@@ -75,6 +75,9 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
         <!-- <link rel="stylesheet" type="text/css" href="frameworks/bootstrap/css/bootstrap-theme.min.css" /> -->
         <script type="text/javascript" xml:space="preserve" src="frameworks/bootstrap/js/bootstrap.min.js"></script>
         
+        <!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
         <!-- CSS specific file -->
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
         
