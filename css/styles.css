@@ -139,12 +139,9 @@
 }
 
 .cvControls .btn {
+	margin-top: 0.5vh;
 	margin-left: 0.3vw;
 	margin-right: 0.3vw;
-}
-
-.cvFileDownloadButton {
-	margin-top: 0.5vh;
 }
 
 #footer {

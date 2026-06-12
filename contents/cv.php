@@ -71,8 +71,8 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center cvControls">
-							<button type="button" id="cvExpandAllSections" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvExpandAllSections']; ?></button>
-							<button type="button" id="cvCollapseAllSections" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvCollapseAllSections']; ?></button>
+							<button type="button" id="cvExpandAllSections" class="btn btn-primary"><?php echo $translations['cvExpandAllSections']; ?></button>
+							<button type="button" id="cvCollapseAllSections" class="btn btn-primary"><?php echo $translations['cvCollapseAllSections']; ?></button>
 						</div>
         				<div class="row">
         					<div class="col-12">
@@ -82,8 +82,8 @@
         							</div>
         							<div class="cvSectionBody collapse show" id="cvSectionWorkExperience">
 										<div class="text-center cvControls">
-											<button type="button" id="cvWorkExpandAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvWorkExpandAll']; ?></button>
-											<button type="button" id="cvWorkCollapseAll" class="btn btn-sm btn-outline-primary"><?php echo $translations['cvWorkCollapseAll']; ?></button>
+											<button type="button" id="cvWorkExpandAll" class="btn btn-primary"><?php echo $translations['cvWorkExpandAll']; ?></button>
+											<button type="button" id="cvWorkCollapseAll" class="btn btn-primary"><?php echo $translations['cvWorkCollapseAll']; ?></button>
 										</div>
 										<ul class="list-group list-group-flush">
 											<?php
