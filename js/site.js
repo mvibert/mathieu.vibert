@@ -13,12 +13,24 @@ $(document).ready(function() {
 	 * Expand / collapse all the work experience entries on the CV page
 	 */
 
-	$('#cvExpandAll').click(function() {
+	$('#cvWorkExpandAll').click(function() {
 		$('.cvWorkBody').collapse('show');
 	});
 
-	$('#cvCollapseAll').click(function() {
+	$('#cvWorkCollapseAll').click(function() {
 		$('.cvWorkBody').collapse('hide');
+	});
+
+	/***************************************************************************
+	 * Expand / collapse all the sections on the CV page
+	 */
+
+	$('#cvExpandAllSections').click(function() {
+		$('.cvSectionBody').collapse('show');
+	});
+
+	$('#cvCollapseAllSections').click(function() {
+		$('.cvSectionBody').collapse('hide');
 	});
 
 });

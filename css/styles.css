@@ -139,12 +139,12 @@
 	background-color: #e9ecef;
 }
 
-.cvWorkControls {
+.cvControls {
 	margin-top: 1vh;
 	margin-bottom: 1vh;
 }
 
-.cvWorkControls .btn {
+.cvControls .btn {
 	margin-left: 0.3vw;
 	margin-right: 0.3vw;
 }

@@ -39,9 +39,12 @@ $translations['cvFrameworks'] = 'Frameworks';
 $translations['cvDesign'] = 'Conception';
 $translations['cvOS'] = 'Syst&egrave;mes d\'exploitation';
 
+$translations['cvExpandAllSections'] = 'D&eacute;plier toutes les sections';
+$translations['cvCollapseAllSections'] = 'Replier toutes les sections';
+
 $translations['cvWorkExperience'] = 'EXPERIENCE PROFESSIONNELLE';
-$translations['cvExpandAll'] = 'Tout d&eacute;plier';
-$translations['cvCollapseAll'] = 'Tout replier';
+$translations['cvWorkExpandAll'] = 'D&eacute;plier tous les emplois';
+$translations['cvWorkCollapseAll'] = 'Replier tous les emplois';
 
 $translations['cvWorkMeritisDates'] = '2023 - maintenant (#NB_YEARS# ans)';
 $translations['cvWorkMeritisCompany'] = 'Meritis';
