@@ -44,11 +44,23 @@
     								
     						<?php
 								$birthDate = $translations['cvBirthdate'];
-								$years = array();
-								preg_match('/([0-9]{4})/', $birthDate, $years);
-								$birthYear = intval($years[0]);
-								$currentYear = intval(date('Y'));
-								$duration = $currentYear - $birthYear;
+								$dateParts = array();
+								preg_match('#([0-9]{1,2})/([0-9]{1,2})/([0-9]{4})#', $birthDate, $dateParts);
+								// the birthdate is written DD/MM/YYYY in French and MM/DD/YYYY in English
+								if ($_SESSION['lang'] == 'english') {
+									$birthMonth = intval($dateParts[1]);
+									$birthDay   = intval($dateParts[2]);
+								} else {
+									$birthDay   = intval($dateParts[1]);
+									$birthMonth = intval($dateParts[2]);
+								}
+								$birthYear = intval($dateParts[3]);
+								$duration = intval(date('Y')) - $birthYear;
+								// remove the current year while the birthday has not occurred yet
+								if (intval(date('n')) < $birthMonth
+										|| (intval(date('n')) == $birthMonth && intval(date('j')) < $birthDay)) {
+									$duration--;
+								}
 								$birthDate = str_replace('#NB_YEARS#', $duration, $birthDate);
 								echo $birthDate;
     						?><br/>
