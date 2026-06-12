@@ -119,6 +119,7 @@ $translations['cvFileLink'] = 'Get the CV as PDF file';
 
 $translations['footerCSSPicture'] = 'Valid CSS stylesheet';
 $translations['footerXHTMLPicture'] = 'Valid XHTML 1.0 web page';
+$translations['footerWebSiteDevelopedBy'] = 'PHP Website developed by';
 $translations['footerAllRightsReserved'] = 'All Rights reserved';
 
 ?>

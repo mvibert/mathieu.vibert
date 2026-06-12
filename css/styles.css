@@ -139,3 +139,11 @@
 	padding-top: 0.5vh;
 	padding-bottom: 0.5vh;
 }
+
+#footer a {
+	color: darkslateblue;
+}
+
+#footer a:hover {
+	color: lightblue;
+}
