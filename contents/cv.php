@@ -17,6 +17,19 @@
 
 				<div class="row" id="cvPicture">
 					<div class="col text-center">
+						<h1>
+							<b>
+							<?php
+								$cvTitle = $translations['cvTitle'];
+								$years = array();
+								$beginningYear = 2011;
+								$currentYear = intval(date('Y'));
+								$duration = $currentYear - $beginningYear;
+								$cvTitle = str_replace('#NB_YEARS#', $duration, $cvTitle);
+								echo $cvTitle;
+							?>
+							</b>
+						</h1>
     					<img src="pictures/id-picture.jpg" class="img-fluid" alt="Mathieu Vibert" title="Mathieu Vibert" id="idPicture"/>
     					<div>
     						<h3><b><?php echo $name; ?></b></h3>
