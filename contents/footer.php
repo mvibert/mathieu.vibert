@@ -39,7 +39,7 @@
     				<div id="footer" class="card-header text-white bg-primary row">
 						<div class="col-md-6 text-center">
 							<h6>
-								<?php echo $translations['footerWebSiteDevelopedBy'] ?> <a href="http://vibert.mathieu.free.fr/?cv">Mathieu Vibert</a>
+								<?php echo $translations['footerWebSiteDevelopedBy'] ?> <a href="http://vibert.mathieu.free.fr/?cv"><?php echo $name; ?></a>
 							</h6>
     					</div>
 						<div class="col-md-6 text-center">
