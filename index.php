@@ -106,6 +106,7 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
         			
         						<?php
         						
+				    			include ('contents/identity.php');
         						include ('contents/' . $path . '.php');
         						
         						?>

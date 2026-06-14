@@ -30,6 +30,9 @@ $languages = array(
     'french'
 );
 
+$name = 'Mathieu Vibert';
+$email = 'mathieu.f.vibert@gmail.com';
+	
 $networks = array(
     'LinkedIn' => 'fa-linkedin',
     'Viadeo'   => 'fa-viadeo-square'

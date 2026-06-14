@@ -11,11 +11,6 @@
 	
 /////////////////////////////////////////////////////////////////////////////////////////
 
-	$name = 'Mathieu Vibert';
-	$email = 'mathieu.f.vibert@gmail.com';
-	
-	$cvFormats['pdf'] = 'PDF';
-	
 	$mimeTypes['pdf'] = 'application/pdf';
 
 ?>

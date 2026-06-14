@@ -13,59 +13,6 @@
 
 ?>
 
-				<div class="row" id="cvPicture">
-					<div class="col text-center">
-						<h1>
-							<b>
-							<?php
-								$cvTitle = $translations['cvTitle'];
-								$beginningTimestamp = mktime(0, 0, 0, 2, 28, 2011);
-								$duration = intval(date('Y')) - intval(date('Y', $beginningTimestamp));
-								// remove the current year while the anniversary (28th February) has not occurred yet
-								if (intval(date('n')) < intval(date('n', $beginningTimestamp))
-										|| (intval(date('n')) == intval(date('n', $beginningTimestamp))
-											&& intval(date('j')) < intval(date('j', $beginningTimestamp)))) {
-									$duration--;
-								}
-								$cvTitle = str_replace('#NB_YEARS#', $duration, $cvTitle);
-								echo $cvTitle;
-							?>
-							</b>
-						</h1>
-    					<img src="pictures/id-picture.jpg" class="img-fluid" alt="Mathieu Vibert" title="Mathieu Vibert" id="idPicture"/>
-    					<div>
-    						<h3><b><?php echo $name; ?></b></h3>
-    						
-    						<a href="mailto:<?php echo $email; ?>">
-    							<?php echo $email; ?>
-    						</a><br/>
-    								
-    						<?php
-								$birthDate = $translations['cvBirthdate'];
-								$dateParts = array();
-								preg_match('#([0-9]{1,2})/([0-9]{1,2})/([0-9]{4})#', $birthDate, $dateParts);
-								// the birthdate is written DD/MM/YYYY in French and MM/DD/YYYY in English
-								if ($_SESSION['lang'] == 'english') {
-									$birthMonth = intval($dateParts[1]);
-									$birthDay   = intval($dateParts[2]);
-								} else {
-									$birthDay   = intval($dateParts[1]);
-									$birthMonth = intval($dateParts[2]);
-								}
-								$birthYear = intval($dateParts[3]);
-								$duration = intval(date('Y')) - $birthYear;
-								// remove the current year while the birthday has not occurred yet
-								if (intval(date('n')) < $birthMonth
-										|| (intval(date('n')) == $birthMonth && intval(date('j')) < $birthDay)) {
-									$duration--;
-								}
-								$birthDate = str_replace('#NB_YEARS#', $duration, $birthDate);
-								echo $birthDate;
-    						?><br/>
-    					</div>
-    				</div>
-				</div>
-					
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center cvControls">
