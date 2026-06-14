@@ -180,7 +180,6 @@
 													array('name' => 'JQuery',     'level' => 60),
 													array('name' => 'Bootstrap',  'level' => 70),
 													array('name' => 'PHP',        'level' => 50),
-													array('name' => 'ASP.Net',    'level' => 30),
 													array('name' => 'J2EE',       'level' => 90),
 													array('name' => 'AngularJS',  'level' => 50)
 												)),

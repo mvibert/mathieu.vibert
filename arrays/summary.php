@@ -51,7 +51,6 @@ $summary['summaryWebProgramming'] = array(
         'javaScript' => array('JavaScript', 'www.editeurjavascript.com'),
         'css'        => array('CSS', 'www.w3schools.com/css'),
         'php'        => array('PHP', 'fr.php.net'),
-        'aspnet'     => array('ASP.NET', 'www.asp.net'),
         'j2ee'       => array('J2EE', 'www.oracle.com/technetwork/java/javaee/overview/index.html'),
         'angular'    => array('Angular', 'angular.io')
     )
