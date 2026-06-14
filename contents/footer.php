@@ -16,7 +16,9 @@
 
 			<div id="contactAndNetworks" class="col text-center">
 				<div id="contact" class="card border-primary">
-					<div class="card-header text-white bg-primary"><?php echo $translations['homeContact']?></div>
+					<div class="card-header text-white bg-primary">
+						<h3><?php echo $translations['homeContact']?></h3>
+					</div>
 					<div class="card-body col-sm-12 text-center">
 
 						<?php
