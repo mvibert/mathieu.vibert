@@ -34,20 +34,20 @@
 	margin-top: 0.5vh;
 }
 
-.summarySectionToggle {
+.commonSectionToggle {
 	cursor: pointer;
 }
 
-.summarySectionToggle .summaryPartTitle::before {
+.commonSectionToggle .commonPartTitle::before {
 	content: '\25B8';
 	margin-right: 0.5rem;
 }
 
-.summarySectionToggle[aria-expanded="true"] .summaryPartTitle::before {
+.commonSectionToggle[aria-expanded="true"] .commonPartTitle::before {
 	content: '\25BE';
 }
 
-.summarySectionToggle:focus {
+.commonSectionToggle:focus {
 	outline: 2px solid #ffffff;
 	outline-offset: -4px;
 }
