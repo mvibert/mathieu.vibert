@@ -56,13 +56,13 @@ $translations['cvWorkMeritisDescription'] = 'Missions :<br/><br/>'
     .'<li>GPM9, API de gestion de PM (Personnes Morales)</li>'
     .'<li>Mod&egrave;le IA, application de r&eacute;vision de donn&eacute;es de PP (Personnes Physiques) via des donn&eacute;es fournies par de l\'IA et des sources fiables</li></ul><br/>'
     .'Mission de 2 ans chez CA-TS (Cr&eacute;dit Agricole Technologies et Services) dans la squad VPP (Vie des Personnes Physiques) sur des API de contr&ocirc;le et de gestion de donn&eacute;es de PP (Personnes Physiques)<br/><br/>';
-$translations['cvWorkMeritisEnvironment'] = 'Environnement : Java/J2EE, Db2 for z/OS, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes, Kafka, AWS, S3';
+$translations['cvWorkMeritisEnvironment'] = 'Environnement : Java 25, IBM Db2, MongoDB, Spring, REST/JSON, Jira, Sonar, Jenkins, GitLab, Docker, Kubernetes, Kafka, AWS, S3';
 
 $translations['cvWorkThessDates'] = '2020 - 2023 (2 ans)';
 $translations['cvWorkThessCompany'] = 'Thess Corporate';
 $translations['cvWorkThessRole'] = 'Analyste développeur Backend';
 $translations['cvWorkThessDescription'] = 'Projet : Thess, application web connectée à un distributeur de médicaments connecté';
-$translations['cvWorkThessEnvironment'] = 'Environnement : Java/J2EE, PostgreSQL, Spring, Hibernate, Clickup, REST/JSON, Git';
+$translations['cvWorkThessEnvironment'] = 'Environnement : Java 8, PostgreSQL, Spring, Hibernate, Clickup, REST/JSON, Git';
 
 $translations['cvWorkAusyDates'] = '2018 - 2020 (3 ans)';
 $translations['cvWorkAusyCompany'] = 'Ausy';
@@ -74,7 +74,7 @@ $translations['cvWorkAusyDescription'] = 'Missions :<br/><br/>'
     .'<li>PDIR, application web surcouche de Livedoc, Gestion Electronique de Documents d\'Orange</li></ul><br/>'
     .'Mission de 2 mois chez La Poste pour une application web permettant de r&eacute;ceptionner des &eacute;v&egrave;nements re&ccedil;us de composants g&eacute;rant la prise en charge de services de La Poste pour les traiter et les redistribuer sous un autre format vers le service de facturation<br/><br/>'
     .'Mission de 18 mois chez Orange pour une application de signature &eacute;lectronique de documents<br/><br/>';
-$translations['cvWorkAusyEnvironment'] = 'Environnement : Java/J2EE, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git, Docker, Kafka';
+$translations['cvWorkAusyEnvironment'] = 'Environnement : Java 11, PHP, MySQL, PostgreSQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, Spring, Hibernate, AngularJS, Angular, Jira, REST/JSON, Git, Docker, Kafka';
 
 $translations['cvWorkProsodieDates'] = '2012 - 2017 (5 ans)';
 $translations['cvWorkProsodieCompany'] = 'Prosodie';
@@ -86,27 +86,27 @@ $translations['cvWorkProsodieDescription'] = 'Projets :<p/><br/>'
     .'D&eacute;veloppement d\'un outil permettant de passer des appels vocaux via un navigateur en s\'appuyant sur l\'API WebRTC<p/>'
     .'D&eacute;veloppement d\'Iry, un prototype d\'application de domotique en entreprise en Java / J2EE pour Rexel<p/>'
     .'&Eacute;tudes, d&eacute;veloppement, recette et maintenance sur le site d\'e-commerce d\'Yves Rocher';
-$translations['cvWorkProsodieEnvironment'] = 'Environnement : Java/J2EE, Oracle, PostgreSQL, Microsoft SQL Server, MySQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, JSP, PHP, Spring, Hibernate, BeanShell, FreeMarker, AngularJS, LeanKit, Jira, Mantis, REST/JSON, Git, SVN';
+$translations['cvWorkProsodieEnvironment'] = 'Environnement : Java 8, Oracle, PostgreSQL, Microsoft SQL Server, MySQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, JSP, PHP, Spring, Hibernate, BeanShell, FreeMarker, AngularJS, LeanKit, Jira, Mantis, REST/JSON, Git, SVN';
 
 $translations['cvWorkIntitekDates'] = '2011 - 2012 (7 mois)';
 $translations['cvWorkIntitekCompany'] = 'Intitek';
 $translations['cvWorkIntitekRole'] = 'Consultant ing&eacute;nieur &eacute;tude et d&eacute;veloppement';
 $translations['cvWorkIntitekDescription'] = 'Client : Prosodie';
 $translations['cvWorkIntitekDescriptionEnd'] = 'Projet : site d\'e-commerce ' . 'd\'Yves Rocher (Conception, d&eacute;veloppement, &eacute;volution) en Java / J2EE';
-$translations['cvWorkIntitekEnvironment'] = 'Environnement : Java/J2EE, Oracle, XHTML/CSS, JavaScript, jQuery, JSP, BeanShell, FreeMarker, Mantis, SVN';
+$translations['cvWorkIntitekEnvironment'] = 'Environnement : Java 7, Oracle, XHTML/CSS, JavaScript, jQuery, JSP, BeanShell, FreeMarker, Mantis, SVN';
 
 $translations['cvWorkGFIDates'] = '2011 (6 mois)';
 $translations['cvWorkGFICompany'] = 'GFI Progiciels, soci&eacute;t&eacute; du groupe GFI Informatique';
 $translations['cvWorkGFIRole'] = 'Ing&eacute;nieur d&eacute;veloppement (stagiaire)';
 $translations['cvWorkGFIDescription'] = '&Eacute;volution d\'une application web ' . 'en Java / J2EE destin&eacute;e &agrave; des clients du secteur public';
 $translations['cvWorkGFIDescriptionEnd'] = '&Eacute;tude et d&eacute;veloppement d\'un ' . 'syst&egrave;me de publipostage automatique avec OpenOffice.org&trade;';
-$translations['cvWorkGFIEnvironment'] = 'Environnement : Java/J2EE, Oracle, HTML/CSS, JavaScript, SVN';
+$translations['cvWorkGFIEnvironment'] = 'Environnement : Java 7, Oracle, HTML/CSS, JavaScript, SVN';
 
 $translations['cvWorkUlDates'] = '2010 (2 mois)';
 $translations['cvWorkUlCompany'] = 'Computer Science and Information Systems, University of Limerick, Ireland';
 $translations['cvWorkUlRole'] = 'Ing&eacute;nieur d&eacute;veloppement (stagiaire)';
 $translations['cvWorkUlDescription'] = 'Correction et &eacute;volution ' . 'd\'un site web en PHP de traduction Ga&euml;lique-Anglais';
-$translations['cvWorkUlEnvironment'] = 'Environnement : PHP, MySQL, HTML/CSS, JavaScript, SVN';
+$translations['cvWorkUlEnvironment'] = 'Environnement : PHP 5, MySQL, HTML/CSS, JavaScript, SVN';
 
 $translations['cvEducation'] = 'DIPLOMES ET FORMATIONS';
 $translations['cvPolytechDepartment'] = 'Dipl&ocirc;me d\'ing&eacute;nieur en Informatique et Gestion';
