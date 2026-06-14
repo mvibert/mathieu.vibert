@@ -93,14 +93,14 @@ $translations['cvWorkIntitekCompany'] = 'Intitek';
 $translations['cvWorkIntitekRole'] = 'Consultant engineer study and development';
 $translations['cvWorkIntitekDescription'] = 'Client : Prosodie';
 $translations['cvWorkIntitekDescriptionEnd'] = 'Project : e-commerce site ' . 'for Yves Rocher (Design, development, evolution) in Java / J2EE';
-$translations['cvWorkIntitekEnvironment'] = 'Environment : Java 7, Oracle, XHTML/CSS, JavaScript, jQuery, JSP, BeanShell, FreeMarker, Mantis, SVN';
+$translations['cvWorkIntitekEnvironment'] = 'Environment : Java 6, Oracle, XHTML/CSS, JavaScript, jQuery, JSP, BeanShell, FreeMarker, Mantis, SVN';
 
 $translations['cvWorkGFIDates'] = '2011 (6 months)';
 $translations['cvWorkGFICompany'] = 'GFI Progiciels, company of the group GFI Informatique';
 $translations['cvWorkGFIRole'] = 'Engineer development (intern)';
 $translations['cvWorkGFIDescription'] = 'Evolution of a web application ' . 'in Java / J2EE intended for public sector clients';
 $translations['cvWorkGFIDescriptionEnd'] = 'Study and development of an ' . 'automatic mailing system with OpenOffice.org&trade;';
-$translations['cvWorkGFIEnvironment'] = 'Environment : Java 7, Oracle, HTML/CSS, JavaScript, SVN';
+$translations['cvWorkGFIEnvironment'] = 'Environment : Java 6, Oracle, HTML/CSS, JavaScript, SVN';
 
 $translations['cvWorkUlDates'] = '2010 (2 months)';
 $translations['cvWorkUlCompany'] = 'Computer Science and Information Systems, University of Limerick, Ireland';
