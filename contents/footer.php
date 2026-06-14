@@ -14,12 +14,12 @@
 ?>
 	
 
-			<div id="contactAndNetworks" class="col text-center">
+			<div class="text-center col">
 				<div id="contact" class="card border-primary">
-					<div class="card-header text-white bg-primary">
-						<h3><?php echo $translations['homeContact']?></h3>
+					<div class="strip card-header text-white bg-primary commonSectionToggle" data-toggle="collapse" data-target="#contactSection" role="button" aria-expanded="true" aria-controls="contactSection">
+						<h3 class="commonPartTitle"><?php echo $translations['homeContact']?></h3>
 					</div>
-					<div class="card-body col-sm-12 text-center">
+					<div class="card-body col-sm-12 text-center collapse show" id="contactSection">
 
 						<?php
 							foreach ( $networks as $networkTitle => $class ) {

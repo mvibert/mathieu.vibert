@@ -20,16 +20,14 @@
 					<div class="strip card-header bg-primary commonSectionToggle" data-toggle="collapse" data-target="#summarySection" role="button" aria-expanded="true" aria-controls="summarySection">
 						<h3 class="commonPartTitle"><?php echo $translations['summaryTitle']; ?></h3>
 					</div>
-					<div class="collapse show" id="summarySection">
-						<div class="card-body">
-								<?php
-								
-									foreach ( $summary as $key => $part ) {
-										displaySummaryPart(summaryPartTitle($key), $part['signs']);
-									}
-								
-								?>
-						</div>
+					<div class="card-body collapse show" id="summarySection">
+						<?php
+						
+							foreach ( $summary as $key => $part ) {
+								displaySummaryPart(summaryPartTitle($key), $part['signs']);
+							}
+						
+						?>
 					</div>
 				</div>
 			</div>
