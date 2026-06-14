@@ -184,7 +184,6 @@
 													array('name' => 'AngularJS',  'level' => 50)
 												)),
 												array('title' => $translations['cvFrameworks'], 'skills' => array(
-													array('name' => '.Net',      'level' => 30),
 													array('name' => 'Hibernate', 'level' => 80),
 													array('name' => 'Spring',    'level' => 90),
 													array('name' => 'Thymeleaf', 'level' => 80)
