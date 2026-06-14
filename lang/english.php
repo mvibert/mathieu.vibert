@@ -79,13 +79,13 @@ $translations['cvWorkAusyEnvironment'] = 'Environment : Java 11, PHP, MySQL, Pos
 $translations['cvWorkProsodieDates'] = '2012 - 2017 (5 years)';
 $translations['cvWorkProsodieCompany'] = 'Prosodie';
 $translations['cvWorkProsodieRole'] = 'Engineer study and development';
-$translations['cvWorkProsodieDescription'] = 'Projects :<p/><br/>'
-    .'Support or integration of SightCall, remote video help solution with multiple features, compatible with several devices, within CAT (Computer Aided Telephony) headset called Odigo, produced by Prosodie, for the clients Darty, Saveo and Air Liquide<p/>'
-    .'Development, test and support of monitoring applications of agents and call metrics for Humanis, CNAM and "pr&eacute;fecture de police de Paris"<p/>'
-    .'Study, development, test and support of CAT (Computer Aided Telephony) headset for the clients La Banque Postale and BlueLink<p/>'
-    .'Development of a tool enabling to make voice calls through a web browser by using WebRTC API<p/>'
-    .'Development of Iry, an company smartbuilding application in Java / J2EE for Rexel<p/>'
-    .'Study, development, test and support on Yves Rocher\'s e-trading website';
+$translations['cvWorkProsodieDescription'] = 'Projects :<br/><br/>'
+    .'Support or integration of SightCall, remote video help solution with multiple features, compatible with several devices, within CAT (Computer Aided Telephony) headset called Odigo, produced by Prosodie, for the clients Darty, Saveo and Air Liquide<br/><br/>'
+    .'Development, test and support of monitoring applications of agents and call metrics for Humanis, CNAM and "pr&eacute;fecture de police de Paris"<br/><br/>'
+    .'Study, development, test and support of CAT (Computer Aided Telephony) headset for the clients La Banque Postale and BlueLink<br/><br/>'
+    .'Development of a tool enabling to make voice calls through a web browser by using WebRTC API<br/><br/>'
+    .'Development of Iry, an company smartbuilding application in Java / J2EE for Rexel<br/><br/>'
+    .'Study, development, test and support on Yves Rocher\'s e-trading website<br/><br/>';
 $translations['cvWorkProsodieEnvironment'] = 'Environment : Java 8, Oracle, PostgreSQL, Microsoft SQL Server, MySQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, JSP, PHP, Spring, Hibernate, BeanShell, FreeMarker, AngularJS, LeanKit, Jira, Mantis, REST/JSON, Git, SVN';
 
 $translations['cvWorkIntitekDates'] = '2011 - 2012 (7 months)';

@@ -79,13 +79,13 @@ $translations['cvWorkAusyEnvironment'] = 'Environnement : Java 11, PHP, MySQL, P
 $translations['cvWorkProsodieDates'] = '2012 - 2017 (5 ans)';
 $translations['cvWorkProsodieCompany'] = 'Prosodie';
 $translations['cvWorkProsodieRole'] = 'Ing&eacute;nieur &eacute;tude et d&eacute;veloppement';
-$translations['cvWorkProsodieDescription'] = 'Projets :<p/><br/>'
-    .'Support ou int&eacute;gration de SightCall, solution d\'assistance vid&eacute;o &agrave; distance avec multiples fonctionnalit&eacute;s, compatible sur de multiples appareils, au sein du bandeau de TAO (T&eacute;l&eacute;phonie Assist&eacute;e par Ordinateur) d\'Odigo, produit de Prosodie, pour les clients Darty, Saveo et Air Liquide<p/>'
-    .'D&eacute;veloppement, recette et maintenance d\'applications de supervision des agents et de m&eacute;triques d\'appels pour Humanis, la CNAM et la pr&eacute;fecture de police de Paris<p/>'
-    .'&Eacute;tudes, d&eacute;veloppement, recette et maintenance du bandeau de TAO (T&eacute;l&eacute;phonie Assist&eacute;e par Ordinateur) pour les clients La Banque Postale et BlueLink<p/>'
-    .'D&eacute;veloppement d\'un outil permettant de passer des appels vocaux via un navigateur en s\'appuyant sur l\'API WebRTC<p/>'
-    .'D&eacute;veloppement d\'Iry, un prototype d\'application de domotique en entreprise en Java / J2EE pour Rexel<p/>'
-    .'&Eacute;tudes, d&eacute;veloppement, recette et maintenance sur le site d\'e-commerce d\'Yves Rocher';
+$translations['cvWorkProsodieDescription'] = 'Projets :<br/><br/>'
+    .'Support ou int&eacute;gration de SightCall, solution d\'assistance vid&eacute;o &agrave; distance avec multiples fonctionnalit&eacute;s, compatible sur de multiples appareils, au sein du bandeau de TAO (T&eacute;l&eacute;phonie Assist&eacute;e par Ordinateur) d\'Odigo, produit de Prosodie, pour les clients Darty, Saveo et Air Liquide<br/><br/>'
+    .'D&eacute;veloppement, recette et maintenance d\'applications de supervision des agents et de m&eacute;triques d\'appels pour Humanis, la CNAM et la pr&eacute;fecture de police de Paris<br/><br/>'
+    .'&Eacute;tudes, d&eacute;veloppement, recette et maintenance du bandeau de TAO (T&eacute;l&eacute;phonie Assist&eacute;e par Ordinateur) pour les clients La Banque Postale et BlueLink<br/><br/>'
+    .'D&eacute;veloppement d\'un outil permettant de passer des appels vocaux via un navigateur en s\'appuyant sur l\'API WebRTC<br/><br/>'
+    .'D&eacute;veloppement d\'Iry, un prototype d\'application de domotique en entreprise en Java / J2EE pour Rexel<br/><br/>'
+    .'&Eacute;tudes, d&eacute;veloppement, recette et maintenance sur le site d\'e-commerce d\'Yves Rocher<br/><br/>';
 $translations['cvWorkProsodieEnvironment'] = 'Environnement : Java 8, Oracle, PostgreSQL, Microsoft SQL Server, MySQL, XHTML/CSS, JavaScript, jQuery, Bootstrap, JSP, PHP, Spring, Hibernate, BeanShell, FreeMarker, AngularJS, LeanKit, Jira, Mantis, REST/JSON, Git, SVN';
 
 $translations['cvWorkIntitekDates'] = '2011 - 2012 (7 mois)';
