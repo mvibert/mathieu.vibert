@@ -33,16 +33,22 @@
 							?>
 							
 							<li class="nav-item<?php if ($path == $item) {echo ' active';} ?>">
-								<a class="nav-link" href="<?php echo urlWithPath('/?'.$item) ?>" title="<?php echo $titles [$item]; ?>"><b><?php
-									echo $titles[$item];
-								?></b></a>
+								<a class="nav-link" href="<?php echo urlWithPath('/?'.$item) ?>" title="<?php echo $titles [$item]; ?>">
+									<b><?php echo $titles[$item]; ?></b>
+								</a>
 							</li>
 									
 							<?php
 							}
 						
 						?>
-						
+
+							<li class="nav-item">
+								<a class="nav-link" target="_blank" title="<?php echo $translations['cvFileLink']; ?>"
+									href="files/downloadFile.php?extension=pdf&amp;file=<?php echo 'cvMathieuVibert_'.$_SESSION['lang'];?>">
+									<b><?php echo $translations['cvFileLink']; ?></b>
+								</a>
+							</li>
 						</ul>
 						<ul class="navbar-nav my-lg-0" id="languages">
 							<li class="nav-item dropdown">

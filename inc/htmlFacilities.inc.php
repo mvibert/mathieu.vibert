@@ -158,37 +158,6 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
-	 * Displays the links to the cv files
-	 */
-	function displayCvFilesLinks() {
-		global $cvFormats;
-		global $translations;
-
-		$format = 'pdf';
-		$formatName = $cvFormats[$format];
-		$cvFileLink = $translations['cvFileLink'];
-		?>
-
-				<div class="row text-center">
-    				<div class="col"></div>
-    				<div class="col-8">
-						<a href="files/downloadFile.php?extension=<?php
-									echo $format;
-								?>&amp;file=<?php
-									echo 'cvMathieuVibert_'.$_SESSION['lang'];
-								?>" target="_blank">
-							<button class="btn btn-primary" title="<?php echo $cvFileLink; ?>"><?php echo $cvFileLink; ?></button>
-						</a>
-					</div>
-    				<div class="col"></div>
-				</div>
-		<?php
-		
-	}
-
-/////////////////////////////////////////////////////////////////////////////////////////
-
-	/**
 	 * Displays the icon of a Network using its title
 	 * 
 	 * @param $title The title of the network displayed
