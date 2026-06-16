@@ -22,7 +22,7 @@
         				<div class="row">
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionWorkExperience" role="button" aria-expanded="true" aria-controls="cvSectionWorkExperience">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" id="cvWorkExperience" data-toggle="collapse" data-target="#cvSectionWorkExperience" role="button" aria-expanded="true" aria-controls="cvSectionWorkExperience">
         								<h3 class="cvPartTitle"><?php echo $translations['cvWorkExperience']?></h3>
         							</div>
         							<div class="card-body cvSectionBody collapse show" id="cvSectionWorkExperience">
@@ -92,7 +92,7 @@
         					</div>
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionEducation" role="button" aria-expanded="true" aria-controls="cvSectionEducation">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" id="cvEducation" data-toggle="collapse" data-target="#cvSectionEducation" role="button" aria-expanded="true" aria-controls="cvSectionEducation">
         								<h3 class="cvPartTitle"><?php echo $translations['cvEducation']; ?></h3>
         							</div>
         							<div class="card-body cvSectionBody collapse show" id="cvSectionEducation">
@@ -162,7 +162,7 @@
         					</div>
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionComputerSkills" role="button" aria-expanded="true" aria-controls="cvSectionComputerSkills">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" id="cvComputerSkills" data-toggle="collapse" data-target="#cvSectionComputerSkills" role="button" aria-expanded="true" aria-controls="cvSectionComputerSkills">
         								<h3 class="cvPartTitle"><?php echo $translations['cvComputerSkills']; ?></h3>
         							</div>
         							<div class="card-body cvSectionBody collapse show" id="cvSectionComputerSkills">
@@ -230,7 +230,7 @@
         					</div>
         					<div class="col-12">
         						<div class="card border-primary">
-        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" data-toggle="collapse" data-target="#cvSectionAdditionalInformation" role="button" aria-expanded="true" aria-controls="cvSectionAdditionalInformation">
+        							<div class="strip card-header text-white bg-primary text-center cvSectionToggle" id="cvAdditionalInformation" data-toggle="collapse" data-target="#cvSectionAdditionalInformation" role="button" aria-expanded="true" aria-controls="cvSectionAdditionalInformation">
         								<h3 class="cvPartTitle"><?php echo $translations['cvAdditionalInformation']; ?></h3>
         							</div>
         							<div class="card-body cvSectionBody collapse show" id="cvSectionAdditionalInformation">
