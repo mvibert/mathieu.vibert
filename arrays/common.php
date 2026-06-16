@@ -21,8 +21,8 @@ $companies = array(
 );
 
 $contents = array(
-    'home',
-    'cv'
+    'home' => array('cvPicture', 'homePresentation', 'summaryTitle', 'homeContact'),
+    'cv' => array('cvPicture', 'cvWorkExperience', 'cvEducation', 'cvComputerSkills', 'cvAdditionalInformation', 'summaryTitle', 'homeContact'),
 );
 
 $languages = array(
