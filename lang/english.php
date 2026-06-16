@@ -34,7 +34,8 @@ $translations['summaryTitle'] = 'Summary';
 $translations['jobTitle'] = 'Senior Web Developer Engineer (#NB_YEARS# years)';
 $translations['birthdate'] = 'Born on 02/12/1988 (#NB_YEARS# years)';
 
-$translations['cvComputerSkills'] = 'COMPUTER SKILLS';
+$translations['cvPicture'] = 'Mathieu Vibert';
+$translations['cvComputerSkills'] = 'Computer skills';
 $translations['cvFrameworks'] = 'Frameworks';
 $translations['cvDesign'] = 'Design';
 $translations['cvOS'] = 'Operating Systems';
@@ -42,7 +43,7 @@ $translations['cvOS'] = 'Operating Systems';
 $translations['cvExpandAllSections'] = 'Expand all sections';
 $translations['cvCollapseAllSections'] = 'Collapse all sections';
 
-$translations['cvWorkExperience'] = 'WORK EXPERIENCE';
+$translations['cvWorkExperience'] = 'Work experiences';
 $translations['cvWorkExpandAll'] = 'Expand all jobs';
 $translations['cvWorkCollapseAll'] = 'Collapse all jobs';
 
@@ -106,14 +107,14 @@ $translations['cvWorkUlDates'] = '2010 (2 months)';
 $translations['cvWorkUlCompany'] = 'Computer Science and Information Systems, University of Limerick, Ireland';
 $translations['cvWorkUlRole'] = 'Engineer development (intern)';
 $translations['cvWorkUlDescription'] = 'Correction and evolution of a website ' . 'in PHP of Irish-English translation';
-$translations['cvWorkUlEnvironment'] = 'Environnement : PHP 5, MySQL, HTML/CSS, JavaScript, SVN';
+$translations['cvWorkUlEnvironment'] = 'Environment : PHP 5, MySQL, HTML/CSS, JavaScript, SVN';
 
-$translations['cvEducation'] = 'EDUCATION';
+$translations['cvEducation'] = 'Education and trainings';
 $translations['cvPolytechDepartment'] = 'Engineering degree in Computer Science and Management';
 $translations['cvEnglish'] = 'English';
 $translations['cvHighSchoolDiploma'] = 'High School Diploma in Science';
 
-$translations['cvAdditionalInformation'] = 'ADDITIONAL INFORMATION';
+$translations['cvAdditionalInformation'] = 'Additional information';
 $translations['cvDrivingLicence'] = 'Full driving licence';
 $translations['cvFirstAidCertificate'] = 'First Aid Certificate';
 $translations['cvDiplomaWorkingChidren'] = 'Diploma for working with children ' . 'in holidays';
