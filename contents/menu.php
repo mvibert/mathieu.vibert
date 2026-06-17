@@ -15,7 +15,7 @@
 	
 ?>
 
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="topMenuBar">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="<?php echo urlWithPath('/') ?>">Mathieu Vibert</a>
@@ -29,16 +29,30 @@
 						
 						<?php
 						
-							foreach ( $contents as $item ) {
+							foreach ( $contents as $item => $sections ) {
 							?>
 							
 							<li class="nav-item<?php if ($path == $item) {echo ' active';} ?>">
-								<a class="nav-link" href="<?php echo urlWithPath('/?'.$item) ?>" title="<?php echo $titles [$item]; ?>">
+								<a class="nav-link" href="<?php echo urlWithPath('/?'.$item); ?>#page-top" title="<?php echo $titles [$item]; ?>">
 									<b><?php echo $titles[$item]; ?></b>
 								</a>
 							</li>
 									
 							<?php
+								if ($path == $item) {
+									foreach ( $sections as $section ) {
+									?>
+									
+									<li class="nav-item">
+										<a class="nav-link" href="<?php echo urlWithPath('/?'.$item).'#'.$section; ?>" title="<?php echo $translations [$section]; ?>">
+											<b><?php echo $translations[$section]; ?></b>
+										</a>
+									</li>
+
+									<?php
+									}
+								}
+
 							}
 						
 						?>

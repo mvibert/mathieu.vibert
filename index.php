@@ -18,15 +18,17 @@ include ('inc/htmlFacilities.inc.php');
 include ('inc/databaseConfig.inc.php');
 include ('inc/testFunctions.inc.php');
 
-$i = 0;
+$pathFound = false;
 
-while ( $i < count ( $contents ) && ! isset ( $_GET [$contents [$i]] ) ) {
-	$i ++;
+foreach ( $contents as $content => $sections ) {
+	if (isset ( $_GET [$content] )) {
+		$path = $content;
+		$pathFound = true;
+		break;
+	}
 }
 
-if ($i < count ( $contents )) {
-	$path = $contents [$i];
-} else {
+if (!$pathFound) {
 	$path = 'home';
 }
 
@@ -89,7 +91,7 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
         ?>
 
 	</head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="80" id="page-top">
     	<div id="global">
     
     			<?php
@@ -102,7 +104,7 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
     				<div class="container-fluid">
     					<div class="row">
         					<div class="col">
-        						<h1 id="contentTitle" class="text-center"><?php echo $titles [$path]?></h1>
+        						<h1 id="contentTitle" class="text-center text-primary"><?php echo $titles [$path]?></h1>
         			
         						<?php
         						

@@ -14,11 +14,11 @@
 ?>
 
 				<div id="homeContent" class="col">
-					<div class="card border-primary">
-						<div class="strip card-header text-white text-center bg-primary commonSectionToggle" data-toggle="collapse" data-target="#homeSection" role="button" aria-expanded="true" aria-controls="homeSection">
+					<div>
+						<div class="text-center text-primary commonSectionToggle" id="homePresentation" data-toggle="collapse" data-target="#homeSection" role="button" aria-expanded="true" aria-controls="homeSection">
 							<h3 class="commonPartTitle"><?php echo $translations['homePresentation']; ?></h3>
 						</div>
-						<div class="card-body collapse show" id="homeSection">
+						<div class="collapse show" id="homeSection">
 							<?php echo $translations['homeMessage']; ?>
 						</div>
 					</div>

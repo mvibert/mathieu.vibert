@@ -122,8 +122,8 @@
 	function displaySummaryPart($title, $signs) {
 		?>
 
-				<div class="card border-primary">
-					<div class="card-header bg-primary"><?php echo $title; ?></div>
+				<div>
+					<div class="card-header bg-primary text-white"><?php echo $title; ?></div>
 
 					<div class="card-body">
 

@@ -34,7 +34,8 @@ $translations['summaryTitle'] = 'R&eacute;sum&eacute;';
 $translations['jobTitle'] = 'Ing&eacute;nieur &eacute;tude et d&eacute;veloppement web senior (#NB_YEARS# ans)';
 $translations['birthdate'] = 'N&eacute; le 12/02/1988 (#NB_YEARS# ans)';
 
-$translations['cvComputerSkills'] = 'CONNAISSANCES INFORMATIQUES';
+$translations['cvPicture'] = 'Mathieu Vibert';
+$translations['cvComputerSkills'] = 'Connaissances informatiques';
 $translations['cvFrameworks'] = 'Frameworks';
 $translations['cvDesign'] = 'Conception';
 $translations['cvOS'] = 'Syst&egrave;mes d\'exploitation';
@@ -42,7 +43,7 @@ $translations['cvOS'] = 'Syst&egrave;mes d\'exploitation';
 $translations['cvExpandAllSections'] = 'D&eacute;plier toutes les sections';
 $translations['cvCollapseAllSections'] = 'Replier toutes les sections';
 
-$translations['cvWorkExperience'] = 'EXPERIENCE PROFESSIONNELLE';
+$translations['cvWorkExperience'] = 'Exp&eacute;riences professionnelles';
 $translations['cvWorkExpandAll'] = 'D&eacute;plier tous les emplois';
 $translations['cvWorkCollapseAll'] = 'Replier tous les emplois';
 
@@ -108,12 +109,12 @@ $translations['cvWorkUlRole'] = 'Ing&eacute;nieur d&eacute;veloppement (stagiair
 $translations['cvWorkUlDescription'] = 'Correction et &eacute;volution ' . 'd\'un site web en PHP de traduction Ga&euml;lique-Anglais';
 $translations['cvWorkUlEnvironment'] = 'Environnement : PHP 5, MySQL, HTML/CSS, JavaScript, SVN';
 
-$translations['cvEducation'] = 'DIPLOMES ET FORMATIONS';
+$translations['cvEducation'] = 'Dipl&ocirc;mes et formations';
 $translations['cvPolytechDepartment'] = 'Dipl&ocirc;me d\'ing&eacute;nieur en Informatique et Gestion';
 $translations['cvEnglish'] = 'Anglais';
 $translations['cvHighSchoolDiploma'] = 'Baccalaur&eacute;at Scientifique';
 
-$translations['cvAdditionalInformation'] = 'INFORMATIONS COMPLEMENTAIRES';
+$translations['cvAdditionalInformation'] = 'Informations compl&eacute;mentaires';
 $translations['cvDrivingLicence'] = 'Permis B';
 $translations['cvFirstAidCertificate'] = 'AFPS';
 $translations['cvDiplomaWorkingChidren'] = 'BAFA';
