@@ -1,159 +1,165 @@
 * {
-    font-family: "Trebuchet MS";
+  font-family: "Trebuchet MS";
 }
 
 #navbar {
-	margin-bottom: 3vh;
+  margin-bottom: 3vh;
 }
 
 .languageFlag {
-	cursor: pointer;
-	margin-left: 1vw;
+  cursor: pointer;
+  margin-left: 1vw;
 }
 
 .languageLinks {
-	margin-top: 0.5vh;
+  margin-top: 0.5vh;
 }
 
 .card {
-	margin-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 #summary {
-	margin-bottom: 1vh;
-	margin-right: 1vw;
+  margin-bottom: 1vh;
+  margin-right: 1vw;
 }
 
 #summary a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #summary a img {
-	margin-left: 0.5vw;
-	margin-right: 0.5vw;
-	margin-top: 0.5vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  margin-top: 0.5vh;
 }
 
 .commonSectionToggle {
-	cursor: pointer;
+  padding-top: 4rem;
+  cursor: pointer;
 }
 
 .commonSectionToggle .commonPartTitle::before {
-	content: '\25B8';
-	margin-right: 0.5rem;
+  content: "\25B8";
+  margin-right: 0.5rem;
 }
 
 .commonSectionToggle[aria-expanded="true"] .commonPartTitle::before {
-	content: '\25BE';
+  content: "\25BE";
 }
 
 .commonSectionToggle:focus {
-	outline: 2px solid #ffffff;
-	outline-offset: -4px;
+  outline: 2px solid #ffffff;
+  outline-offset: -4px;
+}
+
+#contentTitle {
+  padding-top: 4rem;
 }
 
 #cvPicture {
-	margin-bottom: 1vh;
+  margin-bottom: 1vh;
 }
 
 #idPicture {
-	width: 20vh;
-	height: auto;
+  width: 20vh;
+  height: auto;
 }
 
 .cvPartTitle {
-	text-transform: uppercase;
-	margin-top: 0;
-	margin-bottom: 0;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .cvWorkToggle {
-	display: block;
-	cursor: pointer;
-	color: inherit;
+  display: block;
+  cursor: pointer;
+  color: inherit;
 }
 
 .cvWorkToggle:hover {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .cvWorkToggle::before {
-	content: '\25B8';
-	margin-right: 0.5rem;
+  content: "\25B8";
+  margin-right: 0.5rem;
 }
 
 .cvWorkToggle[aria-expanded="true"]::before {
-	content: '\25BE';
+  content: "\25BE";
 }
 
 .cvWorkToggle:focus {
-	outline: 2px solid #007bff;
-	outline-offset: 2px;
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
 }
 
 .cvSectionToggle {
-	cursor: pointer;
+  padding-top: 4rem;
+  cursor: pointer;
 }
 
 .cvSectionToggle .cvPartTitle::before {
-	content: '\25B8';
-	margin-right: 0.5rem;
+  content: "\25B8";
+  margin-right: 0.5rem;
 }
 
 .cvSectionToggle[aria-expanded="true"] .cvPartTitle::before {
-	content: '\25BE';
+  content: "\25BE";
 }
 
 .cvSectionToggle:focus {
-	outline: 2px solid #ffffff;
-	outline-offset: -4px;
+  outline: 2px solid #ffffff;
+  outline-offset: -4px;
 }
 
 .cvSkillGroup {
-	margin-top: 1vh;
-	margin-bottom: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 .cvSkillGroupTitle {
-	font-weight: bold;
-	margin-bottom: 0.8vh;
+  font-weight: bold;
+  margin-bottom: 0.8vh;
 }
 
 .cvSkill {
-	margin-bottom: 1vh;
+  margin-bottom: 1vh;
 }
 
 .cvSkillLabel {
-	font-size: 0.9rem;
-	margin-bottom: 0.3vh;
+  font-size: 0.9rem;
+  margin-bottom: 0.3vh;
 }
 
 .cvSkillProgress {
-	height: 0.9rem;
-	background-color: #e9ecef;
+  height: 0.9rem;
+  background-color: #e9ecef;
 }
 
 .cvControls {
-	margin-top: 1vh;
-	margin-bottom: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 .cvControls .btn {
-	margin-top: 0.5vh;
-	margin-left: 0.3vw;
-	margin-right: 0.3vw;
+  margin-top: 0.5vh;
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
 }
 
 #footer {
-	padding-top: 0.5vh;
-	padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
 }
 
 #footer a {
-	color: darkslateblue;
+  color: darkslateblue;
 }
 
 #footer a:hover {
-	color: lightblue;
+  color: lightblue;
 }

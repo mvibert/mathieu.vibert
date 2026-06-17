@@ -15,11 +15,11 @@
 	
 
 			<div class="text-center col">
-				<div id="contact" class="card border-primary">
-					<div class="strip card-header text-white bg-primary commonSectionToggle" id="homeContact" data-toggle="collapse" data-target="#contactSection" role="button" aria-expanded="true" aria-controls="contactSection">
+				<div id="contact">
+					<div class="text-center text-primary commonSectionToggle" id="homeContact" data-toggle="collapse" data-target="#contactSection" role="button" aria-expanded="true" aria-controls="contactSection">
 						<h3 class="commonPartTitle"><?php echo $translations['homeContact']?></h3>
 					</div>
-					<div class="card-body col-sm-12 text-center collapse show" id="contactSection">
+					<div class="col-sm-12 text-center collapse show" id="contactSection">
 
 						<?php
 							foreach ( $networks as $networkTitle => $class ) {

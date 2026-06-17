@@ -104,7 +104,7 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
     				<div class="container-fluid">
     					<div class="row">
         					<div class="col">
-        						<h1 id="contentTitle" class="text-center"><?php echo $titles [$path]?></h1>
+        						<h1 id="contentTitle" class="text-center text-primary"><?php echo $titles [$path]?></h1>
         			
         						<?php
         						

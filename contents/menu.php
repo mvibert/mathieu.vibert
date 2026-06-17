@@ -33,7 +33,7 @@
 							?>
 							
 							<li class="nav-item<?php if ($path == $item) {echo ' active';} ?>">
-								<a class="nav-link" href="<?php echo urlWithPath('/?'.$item); ?>" title="<?php echo $titles [$item]; ?>">
+								<a class="nav-link" href="<?php echo urlWithPath('/?'.$item); ?>#page-top" title="<?php echo $titles [$item]; ?>">
 									<b><?php echo $titles[$item]; ?></b>
 								</a>
 							</li>
