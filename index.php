@@ -91,7 +91,7 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
         ?>
 
 	</head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="80" id="page-top">
+    <body id="page-top">
     	<div id="global">
     
     			<?php
