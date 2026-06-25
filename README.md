@@ -29,8 +29,6 @@ downloaded as a PDF.
 
 - **PHP** (procedural, no framework) — server-side rendering
 - **Bootstrap** + **jQuery** — bundled under [frameworks/](frameworks/)
-- **MySQL** via **PDO** — optional, configured for future use (see
-  [inc/databaseConfig.inc.php](inc/databaseConfig.inc.php))
 - **Apache** (WAMP locally, free.fr hosting in production)
 
 ## Project structure
@@ -54,7 +52,6 @@ downloaded as a PDF.
 ├── frameworks/             # Bootstrap & jQuery
 ├── inc/                    # Include helpers
 │   ├── htmlFacilities.inc.php   # rendering helpers, URL/redirect, remote detection
-│   ├── databaseConfig.inc.php   # DB config reader + PDO connection
 │   └── testFunctions.inc.php
 ├── js/                     # site.js (language dropdown behaviour)
 ├── lang/                   # Translations
@@ -90,14 +87,6 @@ This project is designed to run under **WAMP** (Windows / Apache / MySQL / PHP).
 Local vs. remote behaviour is detected automatically in
 [inc/htmlFacilities.inc.php](inc/htmlFacilities.inc.php) by checking whether the path
 contains `wamp`, which adjusts the base URL path (`/vibert.mathieu`) accordingly.
-
-### Database (optional)
-
-The site renders fully without a database. Database support is wired up but not required by
-the current pages. If you enable it, create
-`admin/databaseSettings.xml` (git-ignored) with `<local>` and `<remote>` sections, each
-containing `<host>`, `<name>`, `<user>` and `<password>` entries, as read by
-[inc/databaseConfig.inc.php](inc/databaseConfig.inc.php).
 
 ## Deployment
 
