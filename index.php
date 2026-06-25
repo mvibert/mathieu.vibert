@@ -11,7 +11,6 @@ define ( 'ROOT', 1 );
 // ///////////////////////////////////////////////////////////////////////////////////////
 
 include ('arrays/common.php');
-include ('arrays/summary.php');
 include ('arrays/cvInfo.php');
 include ('arrays/externalLinks.php');
 include ('inc/htmlFacilities.inc.php');
@@ -58,7 +57,7 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
         <title><?php echo $translations['websiteTitle'] ?> - <?php echo $titles[$path] ?></title>
-        
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="Author" content="Mathieu Vibert" />
         <meta name="google-site-verification" content="31WjSjE0z_ROPN878EZGjP0Jy6aWUQJ3r3kIhSPWC1Q" />
@@ -68,24 +67,24 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
 
         <!-- JQuery -->
         <script type="text/javascript" xml:space="preserve" src="frameworks/jquery/jquery-2.1.4.min.js"></script>
-        
+
         <!-- Fonts -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        
+
         <!-- Bootstrap -->
         <link rel="stylesheet" type="text/css" href="frameworks/bootstrap/css/bootstrap.min.css" />
         <!-- <link rel="stylesheet" type="text/css" href="frameworks/bootstrap/css/bootstrap-theme.min.css" /> -->
         <script type="text/javascript" xml:space="preserve" src="frameworks/bootstrap/js/bootstrap.min.js"></script>
-        
+
         <!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
         <!-- CSS specific file -->
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        
+
         <!-- JS specific file -->
         <script type="text/javascript" src="js/site.js"></script>
-        
+
         <?php
         include ('contents/seo_google.php');
         ?>
@@ -93,43 +92,36 @@ include ('lang/' . $_SESSION ['lang'] . '.php');
 	</head>
     <body id="page-top">
     	<div id="global">
-    
+
     			<?php
-    			
+
     			include ('contents/header.php');
-    			
+
     			?>
-    
+
     			<div id="content" class="content">
     				<div class="container-fluid">
     					<div class="row">
         					<div class="col">
         						<h1 id="contentTitle" class="text-center text-primary"><?php echo $titles [$path]?></h1>
-        			
+
         						<?php
-        						
+
 				    			include ('contents/identity.php');
         						include ('contents/' . $path . '.php');
-        						
+
         						?>
         					</div>
     					</div>
-    					<div class="row">
-        					<?php
-        					
-        					include ('contents/summary.php');
-        					
-        					?>
-    					</div>
     				</div>
     			</div>
-    
+
     			<?php
-    			
+
     			include ('contents/footer.php');
-    			
+
     			?>
-    
+
     		</div>
     </body>
 </html>

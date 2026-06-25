@@ -21,8 +21,8 @@ $companies = array(
 );
 
 $contents = array(
-    'home' => array('homePresentation', 'summaryTitle', 'homeContact'),
-    'cv' => array('cvWorkExperience', 'cvEducation', 'cvComputerSkills', 'cvAdditionalInformation', 'summaryTitle', 'homeContact'),
+    'home' => array('homePresentation', 'homeContact'),
+    'cv' => array('cvWorkExperience', 'cvEducation', 'cvComputerSkills', 'cvAdditionalInformation', 'homeContact'),
 );
 
 $languages = array(
@@ -32,7 +32,7 @@ $languages = array(
 
 $name = 'Mathieu Vibert';
 $email = 'mathieu.f.vibert@gmail.com';
-	
+
 $networks = array(
     'LinkedIn' => 'fa-linkedin',
     'Viadeo'   => 'fa-viadeo-square'

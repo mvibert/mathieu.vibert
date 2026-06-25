@@ -114,6 +114,11 @@ $translations['cvPolytechDepartment'] = 'Engineering degree in Computer Science 
 $translations['cvEnglish'] = 'English';
 $translations['cvHighSchoolDiploma'] = 'High School Diploma in Science';
 
+$translations['cvSoftwareProgramming'] = 'Software programming';
+$translations['cvWebProgramming'] = 'Web programming';
+$translations['cvDBMS'] = 'DBMS';
+$translations['cvVCS'] = 'Version Control Systems';
+
 $translations['cvAdditionalInformation'] = 'Additional information';
 $translations['cvDrivingLicence'] = 'Full driving licence';
 $translations['cvFirstAidCertificate'] = 'First Aid Certificate';

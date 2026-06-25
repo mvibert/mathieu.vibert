@@ -8,7 +8,7 @@
 	 */
 
 	defined ('ROOT') or die('Restricted access');
-	
+
 /////////////////////////////////////////////////////////////////////////////////////////
 
 ?>
@@ -66,15 +66,15 @@
 																<?php
 																		if (isset($translations['cvWork'.$company.'DescriptionEnd'])) {
 																			?>
-																			
+
 																<div class="row">
 																	<?php echo $translations['cvWork'.$company.'DescriptionEnd']; ?>
 																</div>
-																	
+
 																			<?php
 																		}
 																		?>
-																		
+
 																<div class="row">
 																	<b><?php echo $translations['cvWork'.$company.'Environment']; ?></b>
 																</div>
@@ -82,7 +82,7 @@
 														</div>
 													</div>
 												</li>
-													
+
 													<?php
 												}
 											?>
@@ -170,10 +170,10 @@
 											// Each skill is array('name' => label, 'level' => percentage 0-100).
 											// Levels default to 100 (max) : adjust each one manually as needed.
 											$computerSkills = array(
-												array('title' => summaryPartTitle('summarySoftwareProgramming'), 'skills' => array(
+												array('title' => $translations['cvSoftwareProgramming'], 'skills' => array(
 													array('name' => 'Java', 'level' => 90)
 												)),
-												array('title' => summaryPartTitle('summaryWebProgramming'), 'skills' => array(
+												array('title' => $translations['cvWebProgramming'], 'skills' => array(
 													array('name' => 'XHTML',      'level' => 70),
 													array('name' => 'JavaScript', 'level' => 70),
 													array('name' => 'CSS',        'level' => 70),
@@ -188,7 +188,7 @@
 													array('name' => 'Spring',    'level' => 90),
 													array('name' => 'Thymeleaf', 'level' => 80)
 												)),
-												array('title' => summaryPartTitle('summaryDBMS'), 'skills' => array(
+												array('title' => $translations['cvDBMS'], 'skills' => array(
 													array('name' => 'MySQL',      'level' => 90),
 													array('name' => 'Oracle',     'level' => 90),
 													array('name' => 'PostgreSQL', 'level' => 90),
@@ -196,7 +196,7 @@
 													array('name' => 'IBM Db2',    'level' => 90),
 													array('name' => 'MongoDB',    'level' => 80)
 												)),
-												array('title' => summaryPartTitle('summaryVCS'), 'skills' => array(
+												array('title' => $translations['cvVCS'], 'skills' => array(
 													array('name' => 'Git', 'level' => 90),
 													array('name' => 'SVN', 'level' => 90)
 												)),
@@ -246,5 +246,5 @@
 				</div>
 
 <?php
-	
+
 ?>
